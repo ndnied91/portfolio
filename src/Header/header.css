@@ -1,0 +1,151 @@
+
+
+.header {
+  overflow: hidden;
+  padding: 10px 5px;
+}
+
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+.logo{
+  border: 5px solid black;
+  align-items: center;
+}
+
+
+.logo:hover{
+  transition-duration: 1.5s;
+  transition-timing: ease-in-out;
+  transform: rotate(360deg);
+}
+
+
+
+.header .hamburger {
+  display: none;
+}
+
+
+.header div.hamburger i:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+#myNav{
+  width: 100%;
+}
+
+
+.overlay .closebtn {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+i{
+  color: #818181;
+}
+
+
+@media screen and (max-width: 600px) {
+  .header-right{
+      /* display: none; */
+  }
+
+  .header div.hamburger {
+    float: right;
+    display: block;
+    color: black;
+    font-style: normal;
+  }
+
+  .header div.hamburger i {
+    font-style: normal;
+  }
+
+  .overlay li {
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+
+  }
+
+
+  #myNav{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  #myNav {
+    width: 0;
+   }
+
+  .closebtn{
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,47 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+
+/*  */
+
+
+
+#title{
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#root{
+  margin: 0;
+}
+
+
+
+i{
+  font-size: normal;
+}
+
+
+@media screen and (max-width: 540px) {
+  body{
+    padding: 15px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1050px) {
+  body{
+    padding: 0 15% 0 15%;
   }
 }

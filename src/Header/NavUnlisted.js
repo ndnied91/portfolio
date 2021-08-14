@@ -6,14 +6,14 @@ const NavUnlisted = styled.ul`
     text-decoration: none;
   }
 
-
   li{
     margin-right: 20px;
-    color: red;
+    color: rgba(82,93,104,.7);
     /* margin: 0 0.8rem; */
     font-size: 1.3rem;
     list-style: none;
   }
+
 
 
   li:hover{
@@ -23,7 +23,6 @@ const NavUnlisted = styled.ul`
   }
 
   div{
-    color: red;
     margin: 0 0.8rem;
     font-size: 1.3rem;
     list-style: none;
@@ -32,7 +31,8 @@ const NavUnlisted = styled.ul`
   .current {
     li {
     transition-duration: 0.5s;
-    transform: scale(1.2);
+    color: black;
+    /* transform: scale(1.2); */
     }
   }
 
@@ -43,7 +43,7 @@ const NavUnlisted = styled.ul`
     }
 
     li{
-       font-size: 16px;
+       font-size: 14px;
     }
 
   }
@@ -58,12 +58,32 @@ const NavUnlisted = styled.ul`
 
   @media screen and (max-width: 600px) {
     li{
-      color: #818181;
+      color: white;
       margin: 0 0.8rem;
       font-size: 1.3rem;
       list-style: none;
       font-size: 45px;
     }
+
+    li:hover{
+      color: white;
+      opacity: 0.5;
+    }
+
+    .current {
+      li {
+      transition-duration: 0.5s;
+      color: white;
+      opacity: 0.2;
+      /* transform: scale(1.1); */
+      }
+  }
+
+
+
+
+
+
 
 `;
 

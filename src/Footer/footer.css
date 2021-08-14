@@ -1,0 +1,45 @@
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  text-align: center;
+  padding: 50px;
+}
+
+.icons{
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.icons a > i:hover{
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+  color: black;
+}
+
+
+.footer{
+  padding: 0;
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+
+#name{
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .icons{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  #name{
+    font-size: 12px;
+    padding-top: 5px;
+  }
+}

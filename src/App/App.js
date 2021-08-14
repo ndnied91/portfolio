@@ -9,6 +9,8 @@ import Home from '../Home/Home.js'
 import About from '../About/About.js'
 import Experience from '../Experience/Experience.js'
 import Contact from '../Contact/Contact.js'
+import Resume from '../Resume/Resume.js'
+import Footer from '../Footer/Footer.js'
 
 function App() {
   return (
@@ -22,11 +24,12 @@ function App() {
                     <Route exact from="/about" component={About} />
                     <Route exact from="/projects" component={Experience} />
                     <Route exact from="/contact" component={Contact} />
+                    <Route exact from="/resume" component={Resume} />
                   </Switch>
                 </div>
       </BrowserRouter>
 
-
+  <Footer/>
 
 
 

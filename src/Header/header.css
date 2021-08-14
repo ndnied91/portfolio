@@ -3,6 +3,7 @@
 .header {
   overflow: hidden;
   padding: 10px 5px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 
@@ -10,11 +11,19 @@
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+  padding: 15px;
+  margin: -10px 0px 10px 0;
 }
 
 .header-right {
   float: right;
+
 }
+
+  a:nth-child(5) > li {
+    color: green;
+  }
+
 
 .logo{
   border: 5px solid black;
@@ -43,9 +52,6 @@
 
 
 
-
-
-
 #myNav{
   width: 100%;
 }
@@ -55,8 +61,8 @@
   color: white;
   position: absolute;
   top: 20px;
-  right: 45px;
-  font-size: 60px;
+  right: 15px;
+  font-size: 34px;
 }
 
 i{
@@ -65,6 +71,10 @@ i{
 
 
 @media screen and (max-width: 600px) {
+
+  .header{
+      border-bottom: none;
+  }
   .header-right{
       /* display: none; */
   }
@@ -75,6 +85,7 @@ i{
     color: black;
     font-style: normal;
   }
+
 
   .header div.hamburger i {
     font-style: normal;

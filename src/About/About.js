@@ -20,8 +20,20 @@ class Info extends React.Component{
         Suspendisse sodales in tellus sed consequat. Mauris sed pharetra ipsum. Quisque massa diam, ultricies ut erat sed, ultrices tincidunt urna. Nulla condimentum aliquam feugiat. Quisque euismod quam sed orci dignissim vehicula. Aenean non ex nisi. Maecenas rutrum bibendum velit, eu ultrices justo. Sed quis lacus vestibulum, rhoncus nisl id, malesuada velit. Morbi faucibus ornare leo, non rhoncus enim varius ac. Curabitur rhoncus dolor ac ipsum tempus, sed finibus massa viverra. Pellentesque lobortis lacinia ex, sed imperdiet dui maximus at. Quisque ac gravida justo. Etiam dictum erat et tristique accumsan.
          </p>
 
+         <section className="lang">
+           <h4> Languages knows/used:</h4>
 
-       </section>    
+           <p>
+
+           Javascript
+           HTML
+           CSS
+
+           </p>
+
+          </section>
+
+       </section>
 
 
       </div>

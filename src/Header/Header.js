@@ -13,18 +13,15 @@ class Header extends React.Component{
           this.state = { menu: false , closeNav: false}
     }
 
-
-
-
-
-
   render(){
 
     const links = [
       {name: "Home",path:"/"},
       {name: "About",path:"/about"},
       {name: "Projects",path:"/projects"},
+      {name: "Resume",path:"/resume"},
       {name: "Contact",path:"/contact"}
+
     ];
 
 const changeMenu = () =>{
@@ -36,17 +33,16 @@ const closeNav = ()=>{
 }
 
 
-
     return(
 
       <div className="header">
             <NavUnlisted>
               <a href="/" className="logo">DN</a>
-              <div className="hamburger" onClick={changeMenu}> <i className="fad fa-bars"></i>  </div>
+              <div className="hamburger" onClick={changeMenu}> <i className="fa fa-bars"></i>  </div>
 
                 <div className="overlay" id={this.state.menu ? "myNav" : ''} >
 
-                  <div  className="closebtn" onClick={closeNav} > <i className="fa fa-times" aria-hidden="true"></i>  </div>
+                  <div  className="closebtn" onClick={closeNav} > <i  className="fa fa-times" aria-hidden="true" ></i>  </div>
                     <div className="overlay-content header-right">
                        {links.map((link,index) => (
                        <NavLink key={index} to={link.path} onClick={closeNav} exact activeClassName="current">

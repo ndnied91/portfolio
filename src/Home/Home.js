@@ -2,7 +2,10 @@ import React from 'react'
 
 import { NavLink } from "react-router-dom";
 
+
 import ButtonStyles from './ButtonStyles'
+
+import Accomplishments from './Accomplishments'
 
 import './home.css'
 
@@ -50,8 +53,9 @@ const Home=()=>{
 
         <h4> Accomplishments:</h4>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu orci in enim rutrum ultrices sit amet vel dolor.
-            Pellentesque dictum lacinia enim sit amet lobortis. Sed et nulla quis eros gravida pretium.
+
+            <Accomplishments/>
+
 
              </p>
 

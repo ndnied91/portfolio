@@ -1,0 +1,19 @@
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+	margin: 0 auto;
+
+}
+
+
+.list-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  border-radius: 30px;
+}

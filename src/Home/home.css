@@ -137,21 +137,21 @@ div{
 
 /* General styles */
 
-/* body { */
-    /* background: var(--clr-light);
+body {
+   background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-} */
-
-img {
-    display: block;
-    max-width: 100%;
 }
 
-strong { font-weight: var(--fw-bold) }
+/* img {
+    display: block;
+    max-width: 100%;
+ } */
+
+strong { font-weight: var(--fw-bold) } */
 
 /* Typography */
 
@@ -227,7 +227,7 @@ nav { display: none; }
        grid-area: img;
        min-width: 250px;
        position: relative;
-       height: 100%;
+       height: 90%;
        weight: 100%;
        transform:   translateY(10px) translateX(30px) scale(1.2) ;
        z-index: 2;
@@ -269,7 +269,18 @@ nav { display: none; }
 .section__title--intro{
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
 }
 
+
+
+}
+
+
+
+
+@media (max-width: 730px) {
+  .direction{
+    display: flex;
+    flex-direction: column;
+  }
 }

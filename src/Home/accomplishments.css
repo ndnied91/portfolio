@@ -17,3 +17,10 @@ ul{
   background-color: red;
   border-radius: 30px;
 }
+
+
+
+
+.list-item:hover{
+  background-color: green;
+}

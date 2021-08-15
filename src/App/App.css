@@ -3,31 +3,10 @@ body{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
    min-width: 400px;
    color: #63707E;
-   background-color: #F8F8F8;
+   /* background-color: red; */
+   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(153,185,251,0.09147408963585435) 100%);
 }
 
-
-#title{
-  text-align: center;
-}
-
-
-.container{
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 0px;
-}
-
-
-#root{
-  margin: 0;
-}
-
-
-
-i{
-  font-size: normal;
-}
 
 
 @media screen and (max-width: 540px) {

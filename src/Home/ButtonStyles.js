@@ -8,19 +8,24 @@ const ButtonStyles = styled.ul`
 
 
 .current{
-  color: white;
-  background-color: #818181;
+  color: black;
+  /* font-weight: 600; */
+  font-weight: var(--fw-bold);
+  border: 2px solid #00008b;
   padding: 15px;
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 10px;
   width: 400px;
   text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
 .current:hover{
   transition-duration: 0.5s;
   transition-timing-function: linear;
-  background-color: black;
+  background: #090979;
+  color: white;
 }
 
 `;

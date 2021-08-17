@@ -31,7 +31,7 @@ const Home=()=>{
 
 
 
-        <section>
+        <section className="about">
 
 
 
@@ -51,7 +51,7 @@ const Home=()=>{
            </div>
 
 
-        <h4> Accomplishments:</h4>
+        <h3> Accomplishments:</h3>
             <p>
 
             <Accomplishments/>
@@ -67,8 +67,8 @@ const Home=()=>{
 
           <ButtonStyles>
                    <section className="direction">
-              <NavLink key={1} to={'/about'}  exact className="current"> About my journey </NavLink>
-              <NavLink key={2} to={'/project'}  exact className="current">View my work </NavLink>
+              <NavLink key={1} to={'/about'}  exact className="current"> About My Journey </NavLink>
+              <NavLink key={2} to={'/projects'}  exact className="current">View My Work </NavLink>
                 </section>
          </ButtonStyles>
      </div>
@@ -76,31 +76,3 @@ const Home=()=>{
 }
 
 export default Home
-
-
-
-
-
-
-
-
-// <section className="introo">
-//
-//     <img src="https://avatars.githubusercontent.com/u/25380503?v=4" height="300px" alt="pic of me"/>
-//
-//     <div style={objStyle}>
-//
-//         <h3> Who am I </h3>
-//
-//           Hello, my name is Daniel Niedzwiedzki and I am a Full Stack Developer based out of NJ / NY.
-//            I am highly experienced in designing & developing full stack custom websites whilst cultivating an unmatched user experience.
-//           <br/>
-//           <br/>
-//           I recently graduated with a Bachellors of Science degreee in Computer Science / Data Science from
-//             <span> <a href="https://www.kean.edu" target="_blank"> Kean University  </a> </span>
-//           <br/>
-//           <br/>
-//           I have passion for creating intuitive, dynamic user friendly websites.
-//     </div>
-//
-// </section>

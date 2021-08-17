@@ -1,9 +1,8 @@
-ul{
+.menu{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
 	margin: 0 auto;
-
 }
 
 
@@ -14,13 +13,159 @@ ul{
   text-align: center;
   height: 120px;
   width: 120px;
-  background-color: red;
   border-radius: 30px;
 }
+
+li.list-item{
+ transform: translateX(20px);
+}
+
+
+
+.acc-item{
+  text-align: center;
+  font-weight: bold;
+}
+
+.acc-item:hover{
+  transition: 0.2s ease-in;
+  transform: scale(1.05);
+}
+
+ section:nth-child(2) > p > div > ul > div:nth-child(1) > li{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 86%);
+ }
+
+
+ section:nth-child(2) > p > div > ul > div:nth-child(2) > li{
+   background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 86%);
+ }
+
+ section:nth-child(2) > p > div > ul > div:nth-child(3) > li{
+    background: linear-gradient(90deg, rgba(4,112,189,1) 0%, rgba(2,165,224,1) 50%);
+ }
+
+ section:nth-child(2) > p > div > ul > div:nth-child(4) > li{
+   background: linear-gradient(90deg, rgba(2,165,224,1) 0%, rgba(0,212,255,1) 50%);
+ }
 
 
 
 
 .list-item:hover{
+  transition: 0.5s linear;
   background-color: green;
 }
+
+
+.content{
+  color: #616161;
+}
+
+.content-title{
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.content-desc{
+  padding-top: 0;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+
+
+.list-item i{
+  color: white;
+  font-size: 55px;
+}
+
+
+
+@media (max-width: 845px) {
+  .menu{
+     display: inline-grid;
+     padding: 0;
+  }
+
+  .acc-item{
+    display: flex;
+    padding: 20px;
+    border: 0.5px solid black;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+   .content{
+    padding-left: 100px;
+    text-align: center;
+  }
+  .accomplishments{
+    text-align: center;
+  }
+  .acc-item:hover{
+    transition: 0.5s linear;
+
+    /* background-color: red; */
+  }
+
+  section:nth-child(2) > p > div > ul > div:nth-child(1) > li{
+   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 86%);
+  }
+
+
+  section:nth-child(2) > p > div > ul > div:nth-child(2) > li{
+    background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 86%);
+  }
+
+  section:nth-child(2) > p > div > ul > div:nth-child(3) > li{
+     background: linear-gradient(180deg, rgba(4,112,189,1) 0%, rgba(2,165,224,1) 50%);
+  }
+
+  section:nth-child(2) > p > div > ul > div:nth-child(4) > li{
+    background: linear-gradient(180deg, rgba(2,165,224,1) 0%, rgba(0,212,255,1) 50%);
+  }
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 845px) and (min-width: 820px){
+  .menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .content {
+    padding-left:0;
+    text-align: center;
+    transform: translateX(10px);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/*
+845-820 make it so two are there
+1180-1100 text is off
+
+/* */

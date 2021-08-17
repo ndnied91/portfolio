@@ -24,7 +24,7 @@ const ButtonStyles = styled.ul`
   .current:hover{
     transition-duration: 0.5s;
     transition-timing-function: linear;
-    background: #090979;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(4,112,189,1) 68%, rgba(2,165,224,1) 85%, rgba(0,212,255,1) 100%);;
     color: white;
   }
 }

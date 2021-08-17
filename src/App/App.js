@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Home from '../Home/Home.js'
 import About from '../About/About.js'
-import Experience from '../Experience/Experience.js'
+import Projects from '../Projects/Projects.js'
 import Contact from '../Contact/Contact.js'
 import Resume from '../Resume/Resume.js'
 import Footer from '../Footer/Footer.js'
@@ -22,7 +22,7 @@ function App() {
                   <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact from="/about" component={About} />
-                    <Route exact from="/projects" component={Experience} />
+                    <Route exact from="/projects" component={Projects} />
                     <Route exact from="/contact" component={Contact} />
                     <Route exact from="/resume" component={Resume} />
                   </Switch>

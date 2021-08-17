@@ -43,21 +43,19 @@ const Home=()=>{
                   I am highly experienced in designing & developing full stack custom websites whilst cultivating an unmatched user experience.
                  <br/>
 
+                 <br/>
                  I recently graduated with a Bachellors of Science degreee in Computer Science / Data Science from
                    <span> <a href="https://www.kean.edu" target="_blank" rel="noreferrer"> Kean University  </a> </span>
                  <br/>
 
+                <br/>
                  I have passion for creating intuitive, dynamic user friendly websites.
            </div>
 
 
         <h3> Accomplishments:</h3>
-            <p>
 
             <Accomplishments/>
-
-
-             </p>
 
          </section>
 

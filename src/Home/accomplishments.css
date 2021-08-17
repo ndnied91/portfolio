@@ -27,34 +27,41 @@ li.list-item{
   font-weight: bold;
 }
 
+
 .acc-item:hover{
   transition: 0.2s ease-in;
   transform: scale(1.05);
 }
 
- section:nth-child(2) > p > div > ul > div:nth-child(1) > li{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 86%);
- }
+.list-item:hover{
+
+}
 
 
- section:nth-child(2) > p > div > ul > div:nth-child(2) > li{
+section.about >  div > ul > div:nth-child(1) > a > li{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 86%);
+}
+
+section.about >  div > ul > div:nth-child(2) > a > li{
    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 86%);
- }
+}
 
- section:nth-child(2) > p > div > ul > div:nth-child(3) > li{
+section.about >  div > ul > div:nth-child(3) > a > li{
     background: linear-gradient(90deg, rgba(4,112,189,1) 0%, rgba(2,165,224,1) 50%);
- }
+}
 
- section:nth-child(2) > p > div > ul > div:nth-child(4) > li{
+section.about > div > ul > div:nth-child(4) > a > li{
    background: linear-gradient(90deg, rgba(2,165,224,1) 0%, rgba(0,212,255,1) 50%);
- }
+}
+
 
 
 
 
 .list-item:hover{
   transition: 0.5s linear;
-  background-color: green;
+  background-color: blue;
+  cursor: pointer;
 }
 
 
@@ -105,7 +112,6 @@ li.list-item{
   .acc-item:hover{
     transition: 0.5s linear;
 
-    /* background-color: red; */
   }
 
   section:nth-child(2) > p > div > ul > div:nth-child(1) > li{

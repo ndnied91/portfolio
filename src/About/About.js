@@ -7,9 +7,9 @@ class Info extends React.Component{
   render(){
 
     return(
-  <div>
+  <div id="about">
 
-      <section className="about">
+      <section className="about" >
 
           <h4> About me:</h4>
 

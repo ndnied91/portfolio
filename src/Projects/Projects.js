@@ -67,7 +67,7 @@ console.log(this.state.showCovid)
 
                 <div className='project-desc'>
                   <a className="desc-title" href='/'  target="_blank" rel="noreferrer">Portfolio</a>
-                      <p className="desc"> Description about covid tracker  </p>
+                      <p className="desc"> Description about portfolio  </p>
                       <div className="desc-learn" onClick={()=>changeState('portfolio')}>
                           {this.state.showPortfolio ? <ProjectPortFolio/> : <div> Learn more.. </div>  }
                       </div>

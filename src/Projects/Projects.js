@@ -104,7 +104,7 @@ switch(project){
                                         />
                                 : <div className="learn_btn"> LEARN MORE </div>  }
                       </div>
-                      <img className="pic effect" src="assets/covid.png" alt='covid' />
+                      <img className="pic effect" src="../assets/covid.png" alt='covid' />
                </div>
 
 

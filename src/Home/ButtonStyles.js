@@ -9,7 +9,8 @@ const ButtonStyles = styled.ul`
 
   .current{
     color: black;
-    /* font-weight: 600; */
+    /* background-color: green; */
+
     font-weight: var(--fw-bold);
     border: 2px solid #00008b;
     padding: 15px;
@@ -20,6 +21,7 @@ const ButtonStyles = styled.ul`
     padding: 10px;
     margin: 10px;
     box-shadow: var(--bs);
+
   }
 
   .current:hover{
@@ -29,6 +31,19 @@ const ButtonStyles = styled.ul`
     color: white;
 
   }
+
+
+
+
+/* #root > div > div:nth-child(2) > div > ul{
+
+} */
+
+
+
+
+
+
 }
 
 

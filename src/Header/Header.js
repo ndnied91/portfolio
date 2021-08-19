@@ -38,7 +38,7 @@ const closeNav = ()=>{
       <div className="header">
             <NavUnlisted>
               <a href="/" className="logo">DN</a>
-              <div className="hamburger" onClick={changeMenu}> <i className="fa fa-bars"></i>  </div>
+              <div className="hamburger" onClick={changeMenu}> <i className="fa fa-bars fa-2x"></i>  </div>
 
                 <div className="overlay" id={this.state.menu ? "myNav" : ''} >
 

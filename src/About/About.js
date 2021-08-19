@@ -6,6 +6,37 @@ class Info extends React.Component{
 
   render(){
 
+    const classes = [ 
+    { class: 'SR/INTERACTIVE WEB VISUALZTN', year: '20FA'},
+    { class: 'BIG DATA COMPUTING' ,year: '20FA'},
+    { class: 'DATA MINING PRINCIPLES' , year:'20SP'},
+    { class: 'IS/AI CHATBOTS' , year:'20SP'},
+    { class: 'APPLIED STATISTICS II',year: '20SP'},
+    { class: 'DATA VISUALIZATION' , year:'19FA'},
+    { class: 'MACHINE LEARNING ALGORITHMS' ,year: '19FA' },
+    { class: 'DATABASE MANAGEMENT SYSTEMS' , year:'19SP'},
+    { class: 'OBJECT ORIENTED ANALYS & DSN' ,year:'19SP'},
+    { class: 'SYSTEM PROGRAMMING' , year: '19SP'},
+    { class: 'ALGORITHMIC THINKING' , year:'18FA'} ,
+    { class: 'COMPUTER OPERATING SYSTEMS', year: '18FA'},
+    { class: 'ANALYSIS OF ALGORITHMS', year:'18FA'} ,
+    { class: 'MATRIX & LINEAR ALGEBRA', year:'18FA'},
+    { class: 'COMPUTER ASSEMBLY LANG' , year:'18FA'},
+    { class: 'PROGRAMMING THE WWW', year:'18SP'},
+    { class: 'DISCRETE STRUCTURES', year:'17FA'},
+    { class: 'APPLIED STATISTICS I' , year: '17FA'},
+    { class: 'DATA STRUCTURES', year:'17FA'},
+    { class: 'COMPUTER SYSTEMS', year:'17FA' },
+    { class: 'COMPUTER ORGAN & PROGRAMMING', year: '17SP'},
+    { class: 'FUNDAMENTALS OF COMPUTER SCIENCE',year: '16/FA'}
+  ]
+
+    const renderClasses = ()=>{
+      return classes.map( (cls , index)=>{
+        return <div key={index}> <strong>{cls.class} </strong> : { cls.year } </div>
+      })
+    }
+
     return(
   <div id="about">
 
@@ -27,6 +58,8 @@ class Info extends React.Component{
             <div>
 
             <p> Classes taken: </p>
+
+                {renderClasses()}
 
               <div className="conferences" id="conferences">
                 <p> Conferences: </p>

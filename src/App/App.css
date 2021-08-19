@@ -1,7 +1,6 @@
 
 body{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-   /* min-width: 400px; */
    color: #63707E;
    /* background-color: red; */
    /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(153,185,251,0.09147408963585435) 100%); */
@@ -20,7 +19,6 @@ body{
   #root{
       margin: 0;
       padding: 0;
-      /* background-color: red; */
     }
 
 }

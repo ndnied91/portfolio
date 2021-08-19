@@ -87,7 +87,7 @@ switch(project){
                                       />
                            : <div className="learn_btn" > LEARN MORE </div>  }
                     </div>
-                    <img className="pic poke effect" src="assets/pokemon.png"  alt='pokemon'/>
+                    <img className="pic poke effect" src="assets/poke1.png"  alt='pokemon'/>
              </div>
 
 
@@ -104,7 +104,7 @@ switch(project){
                                         />
                                 : <div className="learn_btn"> LEARN MORE </div>  }
                       </div>
-                      <img className="pic effect" src="../assets/covid.png" alt='covid' />
+                      <img className="pic tracker effect" src="../assets/covid1.png" alt='covid' />
                </div>
 
 
@@ -142,7 +142,7 @@ switch(project){
                                       />
                                        : <div className="learn_btn"> LEARN MORE </div>  }
                     </div>
-                    <img className="pic effect1" src="assets/image.png" alt='image_class' />
+                    <img className="pic image effect1" src="assets/image.png" alt='image_class' />
              </div>
 
 

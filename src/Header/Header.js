@@ -23,8 +23,8 @@ class Header extends React.Component{
       {name: "Projects",path:"/projects"},
       {name: "Resume",path:"/resume"},
       {name: "Contact",path:"/contact"}
-
     ];
+
 
 const changeMenu = () =>{
 

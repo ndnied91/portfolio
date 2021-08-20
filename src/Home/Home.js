@@ -63,13 +63,16 @@ const Home=()=>{
 
 
           <ButtonStyles>
-                   <section className="direction">
-              <NavLink key={1} to={'/about'}  exact className="current"> About My Journey </NavLink>
-              <NavLink key={2} to={'/projects'}  exact className="current">View My Work </NavLink>
-                </section>
+             <section className="direction">
+                <a className="current" href= "/about" rel="noreferrer"> About my Jounrey</a>
+                <a className="current" href= "/projects" rel="noreferrer"> View My Work </a>
+          </section>
          </ButtonStyles>
      </div>
   )
 }
 
 export default Home
+
+
+// <a href= "/projects" rel="noreferrer">

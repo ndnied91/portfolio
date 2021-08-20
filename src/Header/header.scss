@@ -223,24 +223,6 @@ i{
 }
 
 
-
-
-
-
-
-
-
-// @media not all and (min-resolution:.001dpcm)
-// { @supports (-webkit-appearance:none) {
-//
-//   // .hamburger.hamburger--spin{
-//   //     background-color: red;
-//   //   }
-// }}
-//
-/* -webkit-appearance: button; */
-
-
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
   @media screen {
       .hamburger.hamburger--spin{

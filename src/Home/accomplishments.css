@@ -16,8 +16,26 @@
   text-align: center;
   height: 120px;
   width: 120px;
-  border-radius: 30px;
+  border-radius: 25px;
 }
+
+
+
+@media (max-width: 820px) {
+
+  .list-item{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  }
+
+  .list-item i{
+    color: white;
+    font-size: 35px;
+  }
+}
+
+
 
 li.list-item{
  transform: translateX(20px);
@@ -28,7 +46,17 @@ li.list-item{
 .acc-item{
   text-align: center;
   font-weight: bold;
+
 }
+
+/* @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+  @media screen {
+      .hamburger.hamburger--spin{
+          background-color: white;
+           -webkit-appearance: none;
+        }
+}} */
+
 
 
 .acc-item:hover{
@@ -84,9 +112,13 @@ section.about > div > ul > div:nth-child(4) > a > li{
 
 
 
-.list-item i{
-  color: white;
-  font-size: 55px;
+
+
+@media (min-width: 845px) {
+  .list-item i{
+    color: white;
+    font-size: 55px;
+  }
 }
 
 

@@ -25,10 +25,14 @@ class Header extends React.Component{
     ];
 
 const changeMenu = () =>{
+
+    document.body.style.overflow = 'hidden'
+    // document.body.style.height = '100%'
     this.state.menu ? this.setState({menu: false}) :  this.setState({menu: true})
 }
 
 const closeNav = ()=>{
+  document.body.style.overflow = 'visible'
   this.setState({menu: false})
 }
 

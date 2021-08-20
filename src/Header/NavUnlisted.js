@@ -32,7 +32,7 @@ const NavUnlisted = styled.ul`
     li {
     transition-duration: 0.5s;
     color: black;
-    /* transform: scale(1.2); */
+    transform: scale(1.2);
     }
   }
 

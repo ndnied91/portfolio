@@ -62,13 +62,12 @@
 
 
 .overlay .closebtn {
-  cursor: pointer;
   color: white;
   position: absolute;
   top: 20px;
   right: 15px;
   font-size: 34px;
-  transform: scaleX(1) translateX(-20px) translateY(50px);
+  transform: scaleX(0.8) translateX(-40px) translateY(40px);
 
 
 
@@ -147,6 +146,8 @@ i{
   .closebtn{
     display: none;
   }
+
+
 }
 
 
@@ -154,8 +155,9 @@ i{
 
 @media screen and (max-width: 600px) {
   .overlay {
+
     transform: scale(1.1);
-    height: 109.5%;
+    height: 105%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -168,11 +170,13 @@ i{
   }
 
   .overlay-content {
+    // transform: scaleX(0.8);
     position: relative;
     top: 25%;
-    width: 95%;
+    width: 100%;
     text-align: center ;
     margin-top: 30px;
+    margin-bottom: 50px;
   }
 
 }

@@ -102,9 +102,14 @@ i{
   .hamburger-box{
     transition-duration: 0.5s;
     opacity: 0.5;
+    background-color: white;
   }
 }
 
+.hamburger-box{
+    background-color: white;
+    background-color: transparent;
+}
 
   .overlay li {
     padding: 8px;

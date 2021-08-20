@@ -2,7 +2,6 @@ import React from 'react'
 
 import { NavLink } from "react-router-dom";
 
-
 import ButtonStyles from './ButtonStyles'
 
 import Accomplishments from './Accomplishments'
@@ -18,11 +17,11 @@ const Home=()=>{
   return(
     <div className="container">
 
-
           <section className="intro" >
            <h1 className="section__title section__title--intro">
                Hi, I am <strong>Daniel <br/>Niedzwiedzki</strong>
            </h1>
+
            <p className="section__subtitle section__subtitle--intro">full-stack dev</p>
              <img src="https://avatars.githubusercontent.com/u/25380503?v=4" height="300px" alt="pic of me" className="intro__img"/>
        </section>
@@ -74,34 +73,3 @@ const Home=()=>{
 }
 
 export default Home
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-// <h3> Accomplishments:</h3>
-//
-//     <Accomplishments/>
-//
-//
-//
-//
-//
-//
-//
-//   <ButtonStyles>
-//            <section className="direction">
-//       <NavLink key={1} to={'/about'}  exact className="current"> About My Journey </NavLink>
-//       <NavLink key={2} to={'/projects'}  exact className="current">View My Work </NavLink>
-//         </section>
-//  </ButtonStyles>

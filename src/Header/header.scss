@@ -1,4 +1,5 @@
 
+
 .header {
   overflow: hidden;
   padding: 10px 5px;
@@ -26,7 +27,6 @@
 .logo{
   border: 5px solid black;
   align-items: center;
-  // opacity: 0;
   animation: 1s fade ease-in-out ;
   transition-duration: 1.5s;
 }
@@ -47,18 +47,34 @@
 
 .header div.hamburger i:hover{
   cursor: pointer;
+  transition-duration: 1.5s;
+  transform: scale(1.1);
+}
+
+@keyframes rotating {
+  0%{
+    opacity: 0;
+
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1.2);
+  }
 }
 
 
 
 .overlay .closebtn {
   cursor: pointer;
-  color: white;
   position: absolute;
-  top: 20px;
+  opacity: 0.5;
+  top: 55px;
   right: 15px;
-  font-size: 34px;
-  transform: scaleX(1) translateX(10px) translateY(10px);
+
+}
+
+#myNav > div.closebtn > span > span{
+  color: white;
 }
 
 i{
@@ -80,16 +96,15 @@ i{
   }
 
 
-  .header div.hamburger i {
-    font-style: normal;
 
+.hamburger--spin:hover{
+
+  .hamburger-box{
+    transition-duration: 0.5s;
+    opacity: 0.5;
   }
+}
 
-  .header div.hamburger i:hover {
-    transition-duration: 1s;
-    color: black;
-
-  }
 
   .overlay li {
     padding: 8px;
@@ -134,6 +149,11 @@ i{
 
 #myNav{
   width: 100%;
+
+  .closebtn {
+    opacity: 1;
+    animation: 0.9s fade ease-in;
+  }
 }
 
 
@@ -159,7 +179,7 @@ i{
   .overlay-content {
 
     top: 50%;
-    padding-top: 50%;
+    padding-top: 25%;
     padding-right: 25%;
     // width: 100%;
     text-align: center ;
@@ -174,10 +194,25 @@ i{
 @keyframes fade {
   0%{
     opacity: 0;
-    font-size:15px;
+    font-size:10px;
+
   }
   100%{
     opacity: 1;
     font-size: 25px;
   }
+}
+
+
+
+
+
+
+// hamburger STYLING
+#myNav > div.closebtn > span > span::before{
+ background-color: white;
+}
+
+#myNav > div.closebtn > span > span{
+  background-color: white;
 }

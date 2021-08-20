@@ -74,3 +74,34 @@ const Home=()=>{
 }
 
 export default Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+// <h3> Accomplishments:</h3>
+//
+//     <Accomplishments/>
+//
+//
+//
+//
+//
+//
+//
+//   <ButtonStyles>
+//            <section className="direction">
+//       <NavLink key={1} to={'/about'}  exact className="current"> About My Journey </NavLink>
+//       <NavLink key={2} to={'/projects'}  exact className="current">View My Work </NavLink>
+//         </section>
+//  </ButtonStyles>

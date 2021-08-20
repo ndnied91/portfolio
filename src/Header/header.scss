@@ -51,16 +51,6 @@
 
 
 
-
-
-#myNav{
-  width: 109.5%;
-}
-
-
-
-
-
 .overlay .closebtn {
   cursor: pointer;
   color: white;
@@ -68,11 +58,7 @@
   top: 20px;
   right: 15px;
   font-size: 34px;
-  transform: scaleX(1) translateX(-20px) translateY(50px);
-
-
-
-
+  transform: scaleX(1) translateX(10px) translateY(10px);
 }
 
 i{
@@ -81,10 +67,6 @@ i{
 
 
 @media screen and (max-width: 600px) {
-
-  // body{
-  //   position: fixed;
-  // }
 
   .header{
       border-bottom: none;
@@ -150,27 +132,36 @@ i{
 }
 
 
+#myNav{
+  width: 100%;
+}
+
 
 
 @media screen and (max-width: 600px) {
   .overlay {
-    transform: scale(1.1);
-    height: 109.5%;
+    height: 110%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: -10px;
-    left: -35px;
+    left: 0;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     transition: 0.5s;
-    overflow-y: scroll;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    // this controls the scroll
+    // padding: 0;
+
   }
 
   .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 95%;
+
+    top: 50%;
+    padding-top: 50%;
+    padding-right: 25%;
+    // width: 100%;
     text-align: center ;
     margin-top: 30px;
   }

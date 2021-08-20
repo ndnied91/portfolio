@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 
 import NavUnlisted from './NavUnlisted'
-import './header.css'
+import './header.scss'
 
 class Header extends React.Component{
 

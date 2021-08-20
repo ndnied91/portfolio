@@ -22,7 +22,7 @@ const UniModal = (props) =>{
           open={open}
           onClose={onCloseModal}
            center
-           classNames={{ modal: 'customModal' }}
+           classNames={{  overlay: 'customOverlay', modal: 'customModal' }}
 
            >
            <div className='container_modal'>

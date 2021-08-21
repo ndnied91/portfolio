@@ -81,6 +81,20 @@ i{
   color: #818181;
 }
 
+.hamburger-box.hamburger--spin{
+    background-color: red;
+    transform: scale(1.05);
+    margin: 0 0;
+}
+
+.hamburger .hamburger--spin{
+  margin: 0;
+}
+// #root > div > div.header > ul > div.hamburger.hamburger--spin > div{
+//     margin: 0 0;
+// }
+//
+
 
 @media screen and (max-width: 600px) {
 
@@ -104,11 +118,6 @@ i{
     opacity: 0.5;
     background-color: white;
   }
-}
-
-.hamburger-box{
-    background-color: white;
-    background-color: transparent;
 }
 
   .overlay li {

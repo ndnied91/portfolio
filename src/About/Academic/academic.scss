@@ -1,0 +1,119 @@
+
+
+.about_title{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 40px;
+
+  text-align: center;
+}
+
+
+.about_content{
+  text-align: center;
+}
+
+
+.classes{
+  text-align: center;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, 180px);
+  justify-content: space-evenly;
+  padding-bottom: 0.5%;
+  background-color: #f0ffff;
+  border-radius: 20px;
+  box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
+  // background-color: #F5F5F5;
+}
+
+
+
+.classes:hover{
+}
+
+.class_item{
+  color: #303030;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+  font-size: 12px;
+  border-radius: 30px;
+  font-family: var(--ff-secondary);
+}
+
+.class_item:hover{
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+
+
+// CONFERNECES
+
+.con_info{
+  background-color: #F5F5F5;
+  padding: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
+}
+
+.con_info h4{
+  margin: 0;
+  color: #303030;
+}
+
+
+.con_date{
+  color: grey;
+  // font-weight: 100;
+}
+
+
+.con_desc{
+  // font-size: 20px;
+}
+
+.con:hover{
+
+  .con_info:hover{
+    transition-duration: 0.5s;
+      transform: scale(1.05);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 940px)   {
+  .classes{
+    margin: 30px;
+    padding-bottom: 20px;
+  }
+
+  .con{
+    margin: 30px;
+    padding-bottom: 20px;
+  }
+
+}

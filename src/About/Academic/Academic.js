@@ -1,51 +1,31 @@
 import React from 'react'
-import './academic.cscc'
+import './academic.scss'
 
+import {conferences} from './data'
 
+import {classes} from './data'
 
 const Academic = ()=>{
 
-  const classes = [ 
-  { class: 'SR/INTERACTIVE WEB VISUALZTN', year: '20FA'},
-  { class: 'BIG DATA COMPUTING' ,year: '20FA'},
-  { class: 'DATA MINING PRINCIPLES' , year:'20SP'},
-  { class: 'IS/AI CHATBOTS' , year:'20SP'},
-  { class: 'APPLIED STATISTICS II',year: '20SP'},
-  { class: 'DATA VISUALIZATION' , year:'19FA'},
-  { class: 'MACHINE LEARNING ALGORITHMS' ,year: '19FA' },
-  { class: 'DATABASE MANAGEMENT SYSTEMS' , year:'19SP'},
-  { class: 'OBJECT ORIENTED ANALYS & DSN' ,year:'19SP'},
-  { class: 'SYSTEM PROGRAMMING' , year: '19SP'},
-  { class: 'ALGORITHMIC THINKING' , year:'18FA'} ,
-  { class: 'COMPUTER OPERATING SYSTEMS', year: '18FA'},
-  { class: 'ANALYSIS OF ALGORITHMS', year:'18FA'} ,
-  { class: 'MATRIX & LINEAR ALGEBRA', year:'18FA'},
-  { class: 'COMPUTER ASSEMBLY LANG' , year:'18FA'},
-  { class: 'PROGRAMMING THE WWW', year:'18SP'},
-  { class: 'DISCRETE STRUCTURES', year:'17FA'},
-  { class: 'APPLIED STATISTICS I' , year: '17FA'},
-  { class: 'DATA STRUCTURES', year:'17FA'},
-  { class: 'COMPUTER SYSTEMS', year:'17FA' },
-  { class: 'COMPUTER ORGAN & PROGRAMMING', year: '17SP'},
-  { class: 'FUNDAMENTALS OF COMPUTER SCIENCE',year: '16/FA'}
-]
 
-  const conferences =[
-    {title:'Great Minds in Stem' , date: '01/21/21'},
-    {title:'Kean Research Days' , date: '01/21/21'},
-    {title:'NCur' , date: '01/21/20'},
-  ]
-
-
-const renderClasses = ()=>{
+const renderClasses = (year)=>{
   return classes.map( (cls , index)=>{
-    return <div key={index}> <strong>{cls.class} </strong> : { cls.year } </div>
+      if(cls.year.includes(year)){
+          return <div className="class_item" key={index}> {cls.class} </div>
+      }
+
   })
 }
 
 const renderConferences = ()=>{
   return conferences.map( (con , index)=>{
-    return <div key={index}> <strong>{con.title} </strong> : { con.date } </div>
+    return(
+      <div className="con_info"key={index}>
+                <h4>{con.title} </h4>
+                  <span className="con_date"> { con.date } </span>
+                  <p className="con_desc"> {con.desc}</p>
+       </div>
+    )
   })
 }
 
@@ -54,16 +34,33 @@ const renderConferences = ()=>{
   return(
     <div className="academics">
 
-          <div className="classes">
-              <h3> Academic Accomplishments </h3>
-              <h4> Classes taken: </h4>
-                    {renderClasses()}`
+          <div className=''>
+              <h3 className="about_title"> ACADEMIC ACCOMPLISHMENTS </h3>
+
+              <h4 className="title"> Computer Science Classes Taken</h4>
+              <br/>
+
+              <h5 className="title"> Classes taken in 2020 </h5>
+              <div className='classes'> {renderClasses('20')} </div>
+
+              <h5 className="title"> Classes taken in 2019 </h5>
+              <div className='classes'> {renderClasses('19')} </div>
+
+              <h5 className="title"> Classes taken in 2018 </h5>
+              <div className='classes'> {renderClasses('18')} </div>
+
+              <h5 className="title"> Classes taken in 2017 </h5>
+              <div className='classes'> {renderClasses('17')} </div>
+
           </div>
 
 
+
         <div className="conferences" id="conferences">
-              <h3>   Conferences: </h3>
-               {renderConferences()}
+                <h3 className="about_title"> CONFERENCES</h3>
+                <div className='con'> {renderConferences()} </div>
+
+
         </div>
 
 

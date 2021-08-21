@@ -5,6 +5,11 @@ import Header from '../Header/Header.js'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
+
+// import background from "../assets/kean.png";
+//
+// `url(${process.env.PUBLIC_URL + '/image.png'})`
+
 import Home from '../Home/Home.js'
 import About from '../About/About.js'
 import Projects from '../Projects/Projects.js'
@@ -16,9 +21,10 @@ function App() {
   return (
     <div className="container">
 
+    <div className="bd" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/background.png'})` }} > </div>
       <BrowserRouter>
             <Header/>
-                <div >
+                <div>
                   <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact from="/about" component={About} />

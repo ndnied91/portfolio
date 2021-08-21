@@ -76,7 +76,6 @@ li.list-item{
 .acc-item{
   text-align: center;
   font-weight: bold;
-
 }
 
 /* @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
@@ -166,6 +165,8 @@ section.about > div > ul > div:nth-child(4) > a > li{
     margin-bottom: 10px;
     border-radius: 30px;
     box-shadow: 4px 2px 5px 2px rgba(0,0,0,0.16);
+
+    background-color: white;
   }
    .content{
     padding-left: 100px;

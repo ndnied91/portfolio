@@ -1,4 +1,27 @@
 
+.visible{
+  transition-duration: 3s;
+  opacity: 1;
+
+}
+
+.hidden{
+  transition-duration: 3s;
+  opacity: 0;
+  background-color: red;
+}
+
+
+.hamburger-box{
+  background-color: transparent;
+}
+
+.hamburger-box:hover{
+  background-color: white;
+  background-color: transparent;
+}
+
+
 
 .header {
   overflow: hidden;
@@ -90,10 +113,6 @@ i{
 .hamburger .hamburger--spin{
   margin: 0;
 }
-// #root > div > div.header > ul > div.hamburger.hamburger--spin > div{
-//     margin: 0 0;
-// }
-//
 
 
 @media screen and (max-width: 600px) {
@@ -222,7 +241,9 @@ i{
 
 
 
+
 // hamburger STYLING
+
 #myNav > div.closebtn > span > span::before{
  background-color: white;
 }

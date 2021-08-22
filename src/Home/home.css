@@ -322,6 +322,7 @@ nav { display: none; }
   .direction{
     display: flex;
     flex-direction: column;
+    /* background-color: red; */
 
   }
   ul{
@@ -347,18 +348,22 @@ nav { display: none; }
 
 
   .intro__img{
-    /* fade in  */
-
-    /* opacity: 0.1; */
     transform: scale(0.8);
     animation: 1s fadePic linear;
   }
+
 }
 
 
 
 
 
+@media (max-width: 600px) {
+
+  .direction{
+      transform: scale(0.9);
+    }
+  }
 
 /* ANIMATIONS */
 

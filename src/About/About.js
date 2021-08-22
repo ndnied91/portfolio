@@ -29,28 +29,81 @@ class Info extends React.Component{
 
         <section className="school" id="academic">
 
+
+
             <Academic/>
 
        </section>
 
          <section className="lang" id="language">
-             <h4> Languages knows/used:</h4>
-             <div>
-             Javascript
-             HTML / CSS
-             Python
-             PHP
-             </div>
 
-             <div>
-              NodeJS
-              React / Redux
-             </div>
 
-             <div>
-              MongoDB
-              MySQL
-             </div>
+                     <h3 className="about_title"> TECHNOLOGY USED </h3>
+
+                     <div className="lang_section">
+                         <p className="lang_title"> LANGUAGE</p>
+
+                         <div className="langs">
+                            <p>Java</p>
+                            <p>JavaScript</p>
+                            <p>Python</p>
+                            <p>PHP</p>
+                     </div>
+
+
+                     </div>
+
+
+                     <div className="lang_section">
+                         <p className="lang_title"> MARK UP </p>
+                         <div className="langs">
+                              <p>HTML</p>
+                              <p>JSX</p>
+                              <p>CSS</p>
+                              <p>SCSS</p>
+                         </div>
+                      </div>
+
+
+                      <div className="lang_section">
+                         <p className="lang_title"> LIBRARIES </p>
+                         <div className="langs">
+                              <p>ReactJS</p>
+                              <p>NodeJS</p>
+                              <p>Redux</p>
+                              <p>TensorFlow</p>
+                         </div>
+                    </div>
+
+
+                    <div className="lang_section">
+                       <p className="lang_title"> DATABASES </p>
+                       <div className="langs">
+                            <p>MongoDB</p>
+                            <p>MySQL</p>
+                        </div>
+                    </div>
+
+
+                    <div className="lang_section">
+                       <p className="lang_title"> CSS FRAMEWORKS  </p>
+                       <div className="langs">
+                            <p>Bootstrap</p>
+                            <p>MaterialIO</p>
+                            <p>SemanticUI</p>
+                       </div>
+                    </div>
+
+
+                    <div className="lang_section">
+                       <p className="lang_title"> MISC.  </p>
+                       <div className="langs">
+                            <p>Git</p>
+                            <p>CLI</p>
+                            <p>Bash</p>
+                       </div>
+                    </div>
+
         </section>
 
 

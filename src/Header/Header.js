@@ -26,10 +26,11 @@ class Header extends React.Component{
     ];
 
 
+
 const changeMenu = () =>{
 
     document.body.style.overflow = 'hidden'
-    // document.querySelector("#root > div > div.header > ul > div.hamburger.hamburger--spin > div").style.opacity = '0'
+    // document.querySelector("#root > div > div.header > ul > div.hamburger.hamburger--spin > div").style.fontSize = '50px'
 
     this.state.menu ? this.setState({menu: false}) :  this.setState({menu: true})
 }
@@ -48,9 +49,9 @@ const closeNav = ()=>{
       <div className="header">
             <NavUnlisted>
               <a href="/" className="logo">DN</a>
-                <div className={`hamburger hamburger--spin ${this.state.menu ? 'is-active' : ' '}`}    type="button">
-                  <div className="hamburger-box" onClick={changeMenu}>
-                    <div className="hamburger-inner" > </div>
+                <div className={`hamburger hamburger--spin hidden1 ${this.state.menu ? 'is-active ' : ' '}`}    type="button">
+                  <div className={`hamburger-box `} onClick={changeMenu}>
+                    <div  className={`hamburger-inner`} > </div>
                   </div>
             </div>
 

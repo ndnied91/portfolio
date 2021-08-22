@@ -31,19 +31,6 @@ const ButtonStyles = styled.ul`
     color: white;
 
   }
-
-
-
-
-/* #root > div > div:nth-child(2) > div > ul{
-
-} */
-
-
-
-
-
-
 }
 
 

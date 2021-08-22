@@ -37,7 +37,9 @@ const renderConferences = ()=>{
           <div className=''>
               <h3 className="about_title"> ACADEMIC ACCOMPLISHMENTS </h3>
 
-              <h4 className="title"> Computer Science Classes Taken</h4>
+                <p id="aca_desc"> Computer Science / Data Science Jan 21 <br/>Deans Honors List Recipient (Sept 2016- 2021) </p>
+                <h4 className="title"> Related Classes Taken</h4>
+
               <br/>
 
               <h5 className="title"> Classes taken in 2020 </h5>

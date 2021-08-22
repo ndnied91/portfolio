@@ -4,6 +4,7 @@ import './academic.scss'
 import {conferences} from './data'
 
 import {classes} from './data'
+import Fader from '../Fader.js'
 
 const Academic = ()=>{
 
@@ -45,10 +46,14 @@ const Academic = ()=>{
   const printAll = ()=>{
     return(
       <div>
-          {renderSections(20)}
-          {renderSections(19)}
-          {renderSections(18)}
-          {renderSections(17)}
+        <Fader>
+              <div>
+                {renderSections(20)}
+                {renderSections(19)}
+                {renderSections(18)}
+                {renderSections(17)}
+              </div>
+           </Fader>
       </div>
     )
   }
@@ -57,6 +62,7 @@ const Academic = ()=>{
     <div>
 
           <div className="conferences" id="conferences">
+
             <h3 className="about_title"> Academic Accomplishments </h3>
                   <h3 className="about_sub_title"> Conferences</h3>
                   <div className='con'> {renderConferences()} </div>
@@ -70,6 +76,7 @@ const Academic = ()=>{
             </div>
 
                   {printAll()}
+
           </div>
      </div>
   )

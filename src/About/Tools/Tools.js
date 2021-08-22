@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import Fader from '../Fader.js'
 import './tools.scss'
 
 
@@ -8,33 +8,39 @@ import './tools.scss'
 const Tools = () =>{
   return(
 <div>
-          <div className="lang_section">
-              <p className="lang_title"> language</p>
+      <Fader>
+          <div className="">
+                  <div className="lang_section">
+                      <p className="lang_title"> language</p>
 
-              <div className="langs">
-                <div className="each_tool">
-                <i className="hov fab fa-java fa-3x"></i>
-                <p className="langs_desc"> Java </p>
+                      <div className="langs">
+                        <div className="each_tool">
+                        <i className="hov fab fa-java fa-3x"></i>
+                        <p className="langs_desc"> Java </p>
+                        </div>
+
+                        <div className="each_tool">
+                        <i className="fab fa-js fa-3x"></i>
+                        <p className="langs_desc"> JavaScript </p>
+                        </div>
+
+                        <div className="each_tool">
+                        <i className="fab fa-python fa-3x"></i>
+                        <p className="langs_desc"> Python</p>
+                        </div>
+
+                        <div className="each_tool">
+                        <i className="fab fa-php fa-3x"></i>
+                        <p className="langs_desc"> PHP</p>
+                       </div>
+                      </div>
                 </div>
 
-                <div className="each_tool">
-                <i className="fab fa-js fa-3x"></i>
-                <p className="langs_desc"> JavaScript </p>
-                </div>
-
-                <div className="each_tool">
-                <i className="fab fa-python fa-3x"></i>
-                <p className="langs_desc"> Python</p>
-                </div>
-
-                <div className="each_tool">
-                <i className="fab fa-php fa-3x"></i>
-                <p className="langs_desc"> PHP</p>
-               </div>
-              </div>
-        </div>
+          </div>
+    </Fader>
 
 
+    <Fader>
         <div className="lang_section">
             <p className="lang_title"> mark up </p>
 
@@ -60,39 +66,46 @@ const Tools = () =>{
                  </div>
             </div>
          </div>
+     </Fader>
 
 
-       <div className="lang_section">
-          <p className="lang_title"> libraries </p>
-
-          <div className="langs">
-               <div className="each_tool">
-                <i class="fab fa-react fa-3x"></i>
-                <p className="langs_desc"> ReactJS </p>
-               </div>
-
-               <div className="each_tool">
-                 <i class="fab iconify" data-icon="simple-icons:redux"></i>
-                 <p className="langs_desc ll"> Redux </p>
-               </div>
 
 
-               <div className="each_tool">
-                <i class="fab fa-node-js fa-3x"></i>
-                <p className="langs_desc"> NodeJS </p>
-               </div>
+      <Fader>
+           <div className="lang_section">
+              <p className="lang_title"> libraries </p>
+
+              <div className="langs">
+                   <div className="each_tool">
+                    <i class="fab fa-react fa-3x"></i>
+                    <p className="langs_desc"> ReactJS </p>
+                   </div>
+
+                   <div className="each_tool">
+                     <i class="fab iconify" data-icon="simple-icons:redux"></i>
+                     <p className="langs_desc ll"> Redux </p>
+                   </div>
 
 
-               <div className="each_tool">
-                 <span><img className= 'tf' src='https://icons-for-free.com/iconfiles/png/512/tensorflow-1324440242699707768.png'/></span>
-                 <p className="langs_desc"> TensorFlow </p>
+                   <div className="each_tool">
+                    <i class="fab fa-node-js fa-3x"></i>
+                    <p className="langs_desc"> NodeJS </p>
+                   </div>
+
+
+                   <div className="each_tool">
+                     <span>
+                        <img className= 'tf' src='https://icons-for-free.com/iconfiles/png/512/tensorflow-1324440242699707768.png'/>
+                     </span>
+                     <p className="langs_desc"> TensorFlow </p>
+                  </div>
               </div>
           </div>
+    </Fader>
 
 
-      </div>
 
-
+<Fader>
       <div className="lang_section">
         <p className="lang_title"> DATABASES </p>
 
@@ -107,11 +120,13 @@ const Tools = () =>{
               <span class="fab iconify" data-icon="cib:mysql"></span>
               <p className="langs_desc"> MySQL </p>
              </div>
-
          </div>
       </div>
+</Fader>
 
 
+
+<Fader>
       <div className="lang_section">
         <p className="lang_title"> CSS FRAMEWORKS  </p>
 
@@ -127,8 +142,9 @@ const Tools = () =>{
              </div>
         </div>
       </div>
+</Fader>
 
-
+<Fader>
       <div className="lang_section">
         <p className="lang_title"> MISC. </p>
           <div className="langs">
@@ -154,6 +170,8 @@ const Tools = () =>{
 
           </div>
       </div>
+    </Fader>
+
   </div>
   )
 }

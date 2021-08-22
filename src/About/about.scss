@@ -1,3 +1,16 @@
+.move_up{
+  transform: translateY(-10%);
+}
+
+
+.about_content{
+  // min-height: 200px;
+}
+
+.extra-stuff{
+  transform: translateY(-50vh);
+}
+
 
 .about_title{
  text-transform: uppercase;
@@ -15,23 +28,34 @@
 
 
 
-@media only screen and (max-width: 685px)   {
-
+@media only screen and (max-width: 685px) {
   .about_title{
     padding-top: 40px;
+  }
+  .move_up{
+    transform: translateY(0%);
+  }
+  .extra-stuff{
+    transform: translateY(-30vh) !important;
   }
 }
 
 
 
 
-
+// mobile
 @media only screen and (max-width: 1260px)   {
   .about_title{
     padding-top: 40px;
   }
   .school{
     transform: translateY(-25vh);
+  }
+  .extra-stuff{
+    transform: translateY(-30vh);
+  }
+  .extra-stuff{
+    transform: translateY(-40vh);
   }
 }
 
@@ -45,6 +69,9 @@
 
   .about_title{
     padding-top: 40px;
+  }
+  .extra-stuff{
+    transform: translateY(-40vh);
   }
 
 }

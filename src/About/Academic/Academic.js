@@ -60,13 +60,14 @@ const Academic = ()=>{
 
   return(
     <div>
-
-          <div className="conferences" id="conferences">
-
+    <p id="conf_section"> </p>
+          <div className="conferences" >
             <h3 className="about_title"> Academic Accomplishments </h3>
                   <h3 className="about_sub_title"> Conferences</h3>
                   <div className='con'> {renderConferences()} </div>
+                  <p id="academic_section"></p>
           </div>
+
 
           <div className='academics' id="academics">
 

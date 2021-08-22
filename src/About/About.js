@@ -49,8 +49,8 @@ class Info extends React.Component{
 
 
         <Fader>
-            <div>
-                <section className="school">
+            <div id="school">
+                <section className="school" >
                     <Academic/>
                </section>
             </div>

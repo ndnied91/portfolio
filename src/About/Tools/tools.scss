@@ -1,0 +1,116 @@
+.about_title{
+  // background-color: red;
+  // padding-bottom: 0;
+  // margin-bottom: 0;
+}
+
+.lang_section{
+  // background-color: red;
+}
+
+
+#language{
+  // background-color: red;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.langs{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+
+
+
+.each_tool{
+  color: grey;
+  font-size: 25px;
+  // background-color: rgba(245,245,245, 0.3);
+  // margin: 50px;
+  margin: 5%;
+  text-align: -webkit-center;
+}
+
+.langs_desc{
+  padding: 0;
+  text-align: center;
+  margin: 40px;
+}
+
+
+.ll{
+    transform: translateY(-6px);
+}
+
+
+
+// REDUX ICON
+.iconify{
+  color: darkred;
+  font-size: 2.9em;
+}
+
+.tf{
+  background-color: transparent;
+  color: red;
+  box-shadow: none;
+  // needs center
+  height: 3em;
+  transform: scale(1);
+  filter: invert(7%) sepia(82%) saturate(7434%) hue-rotate(4deg) brightness(79%) contrast(108%);
+}
+
+
+#language > div > div:nth-child(5) > div > div:nth-child(2) > svg > path:nth-child(1){
+  fill: darkred;
+}
+
+
+
+.langs i{
+  color: darkred;
+}
+
+.lang_title{
+  text-align: center;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 0;
+
+}
+
+
+.about_sub_title{
+  text-align: center;
+}
+
+
+.lang_section{
+  font-family: var(--ff-secondary);
+  margin: 20px;
+}
+
+
+@media only screen and (max-width: 940px)   {
+  .lang{
+    margin-top:0;
+    margin: 40px;
+    padding: 0;
+    transform: scale(1);
+  }
+
+  .langs p{
+    font-size: 18px;
+    margin: 0;
+  }
+  .lang_title{
+    font-size: 20px;
+  }
+
+  .each_tool{
+    margin: 4%;
+  }
+}

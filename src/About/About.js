@@ -4,6 +4,7 @@ import './about.scss'
 
 
 import Academic from './Academic/Academic.js'
+import Tools from './Tools/Tools.js'
 
 class Info extends React.Component{
 
@@ -12,9 +13,10 @@ class Info extends React.Component{
     return(
   <div id="about">
 
+
       <section className="about" >
 
-          <h3 className="about_title"> ABOUT ME</h3>
+          <h3 className="about_title"> About Me</h3>
 
           <p className="about_content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu orci in enim rutrum ultrices sit amet vel dolor.
@@ -31,75 +33,10 @@ class Info extends React.Component{
 
 
 
-        <h3 className="about_title"> TECHNOLOGY USED </h3>
-
+        <h3 className="about_title"> ToolKit </h3>
             <section className="lang" id="language">
-
-                    <div className="lang_section">
-                        <p className="lang_title"> LANGUAGE</p>
-
-                        <div className="langs">
-                           <p>Java</p>
-                           <p>JavaScript</p>
-                           <p>Python</p>
-                           <p>PHP</p>
-                    </div>
-
-
-                    </div>
-
-
-                    <div className="lang_section">
-                        <p className="lang_title"> MARK UP </p>
-                        <div className="langs">
-                             <p>HTML</p>
-                             <p>JSX</p>
-                             <p>CSS</p>
-                             <p>SCSS</p>
-                        </div>
-                     </div>
-
-
-                     <div className="lang_section">
-                        <p className="lang_title"> LIBRARIES </p>
-                        <div className="langs">
-                             <p>ReactJS</p>
-                             <p>NodeJS</p>
-                             <p>Redux</p>
-                             <p>TensorFlow</p>
-                        </div>
-                   </div>
-
-
-                   <div className="lang_section">
-                      <p className="lang_title"> DATABASES </p>
-                      <div className="langs">
-                           <p>MongoDB</p>
-                           <p>MySQL</p>
-                       </div>
-                   </div>
-
-
-                   <div className="lang_section">
-                      <p className="lang_title"> CSS FRAMEWORKS  </p>
-                      <div className="langs">
-                           <p>Bootstrap</p>
-                           <p>MaterialIO</p>
-                           <p>SemanticUI</p>
-                      </div>
-                   </div>
-
-
-                   <div className="lang_section">
-                      <p className="lang_title"> MISC.  </p>
-                      <div className="langs">
-                           <p>Git</p>
-                           <p>CLI</p>
-                           <p>Bash</p>
-                      </div>
-                   </div>
-
-       </section>
+                  <Tools/>
+              </section>
 
 
 
@@ -116,13 +53,13 @@ class Info extends React.Component{
 
 
         <section className="extra-stuff">
-           <h4 className="about_title"> EXTRA STUFF</h4>
+           <h4 className="about_title"> Extra Stuff</h4>
 
               Courses: Udemy Courses
 
               Google Grow
 
-              
+
 
            <div>
 

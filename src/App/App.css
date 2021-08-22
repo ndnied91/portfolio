@@ -29,7 +29,9 @@ body{
   z-index: -5;
   position: fixed;
   opacity: 0.9;
-  transform: translateX(-260px);
+  /* background-color: red; */
+  transform: scale(1.5) translateX(40px);
+  opacity: 1;
 }
 
 

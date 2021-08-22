@@ -8,6 +8,7 @@
 
 
 
+
 .info_content{
   display: flex;
   flex-direction: column;
@@ -26,7 +27,7 @@
   width: 100px;
   text-align: -webkit-center;
   display: inline-table;
-  padding: 40px;
+  padding: 30px;
 
   padding-top: 10%;
 }
@@ -42,9 +43,15 @@
 }
 
 
+
 .contact_info{
     text-align: center;
     min-height: 50vh;
+}
+
+.menu{
+  text-align: center;
+  min-height: 50vh;
 }
 
 .menu_contact{

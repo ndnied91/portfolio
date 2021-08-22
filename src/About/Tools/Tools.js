@@ -13,7 +13,7 @@ const Tools = () =>{
 
               <div className="langs">
                 <div className="each_tool">
-                <i className="fab fa-java fa-3x"></i>
+                <i className="hov fab fa-java fa-3x"></i>
                 <p className="langs_desc"> Java </p>
                 </div>
 
@@ -45,7 +45,7 @@ const Tools = () =>{
                  </div>
 
                  <div className="each_tool">
-                  <i className="iconify" data-icon="file-icons:jsx"></i>
+                  <i className="fab iconify" data-icon="file-icons:jsx"></i>
                   <p className="langs_desc ll"> JSX </p>
                  </div>
 
@@ -72,7 +72,7 @@ const Tools = () =>{
                </div>
 
                <div className="each_tool">
-                 <i class="iconify" data-icon="simple-icons:redux"></i>
+                 <i class="fab iconify" data-icon="simple-icons:redux"></i>
                  <p className="langs_desc ll"> Redux </p>
                </div>
 
@@ -98,13 +98,13 @@ const Tools = () =>{
 
         <div className="langs">
              <div className="each_tool">
-               <span class="iconify" data-icon="cib:mongodb"></span>
+               <span class="fab iconify" data-icon="cib:mongodb"></span>
                <p className="langs_desc"> MongoDB </p>
              </div>
 
 
              <div className="each_tool">
-              <span class="iconify" data-icon="cib:mysql"></span>
+              <span class="fab iconify" data-icon="cib:mysql"></span>
               <p className="langs_desc"> MySQL </p>
              </div>
 
@@ -122,7 +122,7 @@ const Tools = () =>{
               </div>
 
              <div className="each_tool">
-                <span class="sm iconify" data-icon="logos:semantic-ui"></span>
+                <span class="fab sm iconify" data-icon="logos:semantic-ui"></span>
                 <p className="langs_desc"> SemanticUI </p>
              </div>
         </div>
@@ -143,12 +143,12 @@ const Tools = () =>{
                 </div>
 
                 <div className="each_tool">
-                  <span class="iconify" data-icon="grommet-icons:cli"></span>
+                  <span class="fab iconify" data-icon="grommet-icons:cli"></span>
                    <p className="langs_desc ll"> CLI </p>
                 </div>
 
                <div className="each_tool">
-                  <span class="iconify" data-icon="simple-icons:gnubash"></span>
+                  <span class="fab iconify" data-icon="simple-icons:gnubash"></span>
                   <p className="langs_desc ll"> Bash </p>
               </div>
 

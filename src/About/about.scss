@@ -1,1 +1,50 @@
 
+.about_title{
+ text-transform: uppercase;
+}
+
+.lang{
+   transform: scale(0.8) translateY(-10%);
+}
+
+
+
+.school{
+  transform: translateY(-20%);
+}
+
+
+
+@media only screen and (max-width: 685px)   {
+
+  .about_title{
+    padding-top: 40px;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 1260px)   {
+  .about_title{
+    padding-top: 40px;
+  }
+  .school{
+    transform: translateY(-25vh);
+  }
+}
+
+
+
+
+@media only screen and (max-width: 1260px) and (min-width: 700px)  {
+  .school{
+    transform: translateY(-15%);
+  }
+
+  .about_title{
+    padding-top: 40px;
+  }
+
+}

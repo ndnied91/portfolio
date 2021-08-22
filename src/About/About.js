@@ -44,9 +44,7 @@ class Info extends React.Component{
 
 
         <section className="school">
-
             <Academic/>
-
        </section>
 
 

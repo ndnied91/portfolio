@@ -1,16 +1,7 @@
-.about_title{
-  // background-color: red;
-  // padding-bottom: 0;
-  // margin-bottom: 0;
-}
 
-.lang_section{
-  // background-color: red;
-}
 
 
 #language{
-  // background-color: red;
   padding-top: 0;
   margin-top: 0;
 }
@@ -24,13 +15,24 @@
 
 
 .each_tool{
-  color: grey;
   font-size: 25px;
-  // background-color: rgba(245,245,245, 0.3);
-  // margin: 50px;
   margin: 5%;
   text-align: -webkit-center;
 }
+
+.each_tool:hover{
+    .fab{
+      transition-duration: 0.5s;
+      color: black;
+      transform: scale(1.1);
+  }
+  .tf{
+    transition-duration: 0.5s;
+    color: black;
+    transform: scale(1.1);
+  }
+}
+
 
 .langs_desc{
   padding: 0;
@@ -55,7 +57,6 @@
   background-color: transparent;
   color: red;
   box-shadow: none;
-  // needs center
   height: 3em;
   transform: scale(1);
   filter: invert(7%) sepia(82%) saturate(7434%) hue-rotate(4deg) brightness(79%) contrast(108%);
@@ -80,6 +81,7 @@
   font-weight: bold;
   padding-top: 0;
 
+  text-transform: uppercase;
 }
 
 
@@ -94,12 +96,11 @@
 }
 
 
-@media only screen and (max-width: 940px)   {
+@media only screen and (max-width: 670px)   {
   .lang{
     margin-top:0;
     margin: 40px;
     padding: 0;
-    transform: scale(1);
   }
 
   .langs p{

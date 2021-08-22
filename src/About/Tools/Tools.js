@@ -137,7 +137,7 @@ const Tools = () =>{
               </div>
 
              <div className="each_tool">
-                <span class="fab  iconify" data-icon="logos:semantic-ui"></span>
+                <span class="fab sm iconify" data-icon="logos:semantic-ui"></span>
                 <p className="langs_desc">SemanticUI</p>
              </div>
         </div>

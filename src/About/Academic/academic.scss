@@ -1,3 +1,27 @@
+.lang_test{
+  padding-top: 10px;
+  box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
+  background-color: rgba(245,245,245, 0.3);
+  padding-bottom: 0.5%;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+
+.lang_test div{
+  text-align: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 180px);
+  justify-content: space-evenly;
+  padding-bottom: 0.5%;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
 .school{
   padding-bottom: 0;
 }
@@ -17,12 +41,15 @@
 }
 
 
-#aca_desc{
-  font-size: 20px;
+#aca_desc p{
+  font-size: 25px;
   text-align: center;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
+// NOT USED
 .classes{
   text-align: center;
   display: grid;
@@ -30,8 +57,8 @@
   grid-template-columns: repeat(auto-fit, 180px);
   justify-content: space-evenly;
   padding-bottom: 0.5%;
-  background-color: #fefefa;
-  border-radius: 20px;
+  // background-color: #fefefa;
+  // border-radius: 20px;
   box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
   background-color: rgba(245,245,245, 0.3);
 }
@@ -40,6 +67,7 @@
   color: #303030;
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 20px;
   margin: auto;
   font-size: 12px;
@@ -111,11 +139,13 @@
 
 
 @media only screen and (max-width: 940px)   {
-  .classes{
+  .lang_test div{
+    display: grid;
+    padding: 15px;
+  }
+
+  .lang_test{
     margin: 30px;
-    padding-bottom: 20px;
-    // background-color: rgba(245,245,245, 0.7);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 100%);
   }
 
   .con{
@@ -127,4 +157,30 @@
       font-size: 30px;
   }
 
+  .about_sub_title{
+    text-align: center;
+    font-size: 26px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px)   {
+  #aca_desc p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .lang_test div{
+    display: block;
+    padding: 15px;
+  }
 }

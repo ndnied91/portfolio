@@ -13,7 +13,7 @@ const Accomplishments = () => {
 
 
           <div className="each-acc-item">
-               <a className="acc-lnk" href= "/about#academic" rel="noreferrer">
+               <a className="acc-lnk" href= "/about#academics" rel="noreferrer">
                   <li className="acc-list-item"> <i className="fa fa-graduation-cap"></i> </li>
                   <div className="acc-content">
                     <p className="acc-content-title">School</p>

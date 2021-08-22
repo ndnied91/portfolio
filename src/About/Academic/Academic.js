@@ -31,44 +31,58 @@ const renderConferences = ()=>{
 
 
 
+const renderSections = (year)=> {
+return(
+  <div className="lang_test">
+      <h5 className="title"> CS Classes Taken in '{year} </h5>
+      <div> {renderClasses(year)} </div>
+  </div>
+)
+
+}
+
+
   return(
-    <div className="academics">
+    <div>
 
-          <div className=''>
-              <h3 className="about_title"> ACADEMIC ACCOMPLISHMENTS </h3>
-
-                <p id="aca_desc"> Computer Science / Data Science Jan 21 <br/>Deans Honors List Recipient (Sept 2016- 2021) </p>
-                <h4 className="title"> Related Classes Taken</h4>
-
-              <br/>
-
-              <h5 className="title"> Classes taken in 2020 </h5>
-              <div className='classes'> {renderClasses('20')} </div>
-
-              <h5 className="title"> Classes taken in 2019 </h5>
-              <div className='classes'> {renderClasses('19')} </div>
-
-              <h5 className="title"> Classes taken in 2018 </h5>
-              <div className='classes'> {renderClasses('18')} </div>
-
-              <h5 className="title"> Classes taken in 2017 </h5>
-              <div className='classes'> {renderClasses('17')} </div>
-
+          <div className="conferences" id="conferences">
+            <h3 className="about_title"> ACADEMIC ACCOMPLISHMENTS </h3>
+                  <h3 className="about_sub_title"> CONFERENCES</h3>
+                  <div className='con'> {renderConferences()} </div>
           </div>
 
+          <div className='academics' id="academics">
 
+            <div id="aca_desc">
+                  <p> Computer Science / Data Science Jan 21 </p>
+                  <p> Deans Honors List Recipient (Sept 2016- 2021) </p>
+            </div>
 
-        <div className="conferences" id="conferences">
-                <h3 className="about_title"> CONFERENCES</h3>
-                <div className='con'> {renderConferences()} </div>
-
-
-        </div>
-
-
+                  {renderSections(20)}
+                  {renderSections(19)}
+                  {renderSections(18)}
+                  {renderSections(17)}
+          </div>
      </div>
   )
 }
 
 
 export default Academic
+
+
+
+
+
+
+
+
+//
+// <h5 className="title"> Classes taken in 2019 </h5>
+// <div className='classes'> {renderClasses('19')} </div>
+//
+// <h5 className="title"> Classes taken in 2018 </h5>
+// <div className='classes'> {renderClasses('18')} </div>
+//
+// <h5 className="title"> Classes taken in 2017 </h5>
+// <div className='classes'> {renderClasses('17')} </div>

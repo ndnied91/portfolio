@@ -214,6 +214,7 @@ section.about > div > ul > div:nth-child(4) > a > li{
     padding-left:0;
     text-align: center;
     transform: translateX(10px);
+
   }
 
 
@@ -226,10 +227,13 @@ section.about > div > ul > div:nth-child(4) > a > li{
 
 
 @media only screen and (max-width: 845px){
+  .acc-lnk{
+      display: contents;
+    }
 
-.acc-lnk{
-    display: contents;
-    background-color: red;
+  .acc-content{
+      padding: 0;
+      text-align: center;
   }
 
 }

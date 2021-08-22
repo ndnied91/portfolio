@@ -128,17 +128,17 @@ const Tools = () =>{
 
 <Fader>
       <div className="lang_section">
-        <p className="lang_title"> CSS FRAMEWORKS  </p>
+        <p className="lang_title">CSS FRAMEWORKS</p>
 
         <div className="langs">
              <div className="each_tool">
                 <i class="fab fa-bootstrap fa-3x"></i>
-                <p className="langs_desc"> Bootstrap </p>
+                <p className="langs_desc">Bootstrap</p>
               </div>
 
              <div className="each_tool">
-                <span class="fab sm iconify" data-icon="logos:semantic-ui"></span>
-                <p className="langs_desc"> SemanticUI </p>
+                <span class="fab  iconify" data-icon="logos:semantic-ui"></span>
+                <p className="langs_desc">SemanticUI</p>
              </div>
         </div>
       </div>

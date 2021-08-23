@@ -46,27 +46,30 @@ const Academic = ()=>{
   const printAll = ()=>{
     return(
       <div>
-        <Fader>
-              <div>
+      <Fader>
+          <div>
+            <div id="academic_section">
+                  <h3 className="about_sub_title_min"> Computer Science / Data Science Jan 21' </h3>
+                  <h4 className="about_sub_title_min"> Deans Honors List Recipient <br/>(Sept 2016- 2021) </h4>
+            </div>
 
-              <div id="academic_section">
-                    <h3 className="about_sub_title"> Computer Science / Data Science Jan 21 </h3>
-                    <h4 className="about_sub_title"> Deans Honors List Recipient (Sept 2016- 2021) </h4>
-              </div>
+              {renderSections(20)}
+              {renderSections(19)}
+              {renderSections(18)}
+              {renderSections(17)}
 
-                {renderSections(20)}
-                {renderSections(19)}
-                {renderSections(18)}
-                {renderSections(17)}
-              </div>
-           </Fader>
+          </div>
+        </Fader>
       </div>
     )
   }
 
   return(
     <div>
-    <p id="conf_section"> </p>
+      <Fader>
+
+          <p id="conf_section"> </p>
+
           <div className="conferences">
             <h3 className="about_title"> Academic Accomplishments </h3>
                   <h3 className="about_sub_title"> Conferences</h3>
@@ -80,6 +83,7 @@ const Academic = ()=>{
           <div className='academics'>
                   {printAll()}
           </div>
+      </Fader>
      </div>
   )
 }

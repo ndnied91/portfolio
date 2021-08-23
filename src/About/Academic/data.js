@@ -42,3 +42,42 @@ export const conferences =[
 
   {title:'Kean Research Days' , date: '04-01-19', desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra neque nulla, in lobortis arcu convallis ut. Vivamus eu pretium orci. Mauris iaculis turpis nec dignissim volutpat. Duis quis vehicula ipsum. Cras auctor arcu id odio malesuada.'}
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const udemy=[
+{ name: "The Advanced Web Developer Bootcamp", url:"https://www.udemy.com/course/the-advanced-web-developer-bootcamp/"},
+{ name:"GraphQL with React: The Complete Developers Guide", url : "https://www.udemy.com/course/graphql-with-react-course/"},
+{ name: "Node with React: Fullstack Web Development", url:"https://www.udemy.com/course/node-with-react-fullstack-web-development/"},
+{ name:"Modern React with Redux", url: "https://www.udemy.com/course/react-redux/"},
+{ name: "The Modern Python 3 Bootcamp" , url: "https://www.udemy.com/course/the-modern-python3-bootcamp/"},
+{ name: "JavaScript Algorithms and Data Structures Masterclass" , url: "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/ "},
+]
+
+
+
+
+
+export const renderCourses = () =>{
+  return(
+    <div>
+      {udemy.map( (course)=>{
+        return <div> {course.name} : {course.url}</div>
+      })}
+     </div>
+  )
+}

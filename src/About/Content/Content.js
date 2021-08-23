@@ -1,16 +1,35 @@
 import React from 'react'
 
 import Fader from '../Fader.js'
-import './tools.scss'
+import './content.scss'
+
+import {udemy} from '../Academic/data.js'
 
 
 import Academic from '../Academic/Academic.js'
 
-const Tools = () =>{
+const Content = () =>{
+
+
+const renderCourses = () =>{
+  return(
+    <div>
+      {udemy.map( (course)=>{
+        return <div className="extra_name">  <a  href={course.url }  rel="noreferrer"  target="_blank"> {course.name} </a> </div>
+      })}
+     </div>
+  )
+}
+
+
+
+
+
+
   return(
 <div>
       <Fader>
-          <div className="lang">
+              <h3 className="about_title"> ToolKit </h3>
                   <div className="lang_section">
                       <p className="lang_title"> language</p>
 
@@ -35,8 +54,6 @@ const Tools = () =>{
                         <p className="langs_desc"> PHP</p>
                        </div>
                       </div>
-                </div>
-
           </div>
     </Fader>
 
@@ -46,25 +63,25 @@ const Tools = () =>{
             <p className="lang_title"> mark up </p>
 
                 <div className="langs">
-                 <div className="each_tool">
-                  <i className="fab fa-html5 fa-3x"></i>
-                  <p className="langs_desc"> HTML </p>
-                 </div>
+                     <div className="each_tool">
+                      <i className="fab fa-html5 fa-3x"></i>
+                      <p className="langs_desc"> HTML </p>
+                     </div>
 
-                 <div className="each_tool">
-                  <i className="fab iconify" data-icon="file-icons:jsx"></i>
-                  <p className="langs_desc ll"> JSX </p>
-                 </div>
+                     <div className="each_tool">
+                      <i className="fab iconify" data-icon="file-icons:jsx"></i>
+                      <p className="langs_desc ll"> JSX </p>
+                     </div>
 
-                 <div className="each_tool">
-                  <i class="fab fa-css3-alt fa-3x"></i>
-                  <p className="langs_desc"> CSS </p>
-                 </div>
+                     <div className="each_tool">
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <p className="langs_desc"> CSS </p>
+                     </div>
 
-                 <div className="each_tool">
-                  <i class="fab fa-sass fa-3x"></i>
-                  <p className="langs_desc"> SCSS </p>
-                 </div>
+                     <div className="each_tool">
+                      <i class="fab fa-sass fa-3x"></i>
+                      <p className="langs_desc"> SCSS </p>
+                     </div>
             </div>
          </div>
      </Fader>
@@ -150,22 +167,22 @@ const Tools = () =>{
         <p className="lang_title"> MISC. </p>
           <div className="langs">
                <div className="each_tool">
-                  <i class="fab fa-git fa-3x"></i>
+                  <i className="fab fa-git fa-3x"></i>
                   <p className="langs_desc"> Git </p>
                 </div>
 
                <div className="each_tool">
-                  <i class="fab fa-github fa-3x"></i>
+                  <i className="fab fa-github fa-3x"></i>
                   <p className="langs_desc"> GitHub </p>
                 </div>
 
                 <div className="each_tool">
-                  <span class="fab iconify" data-icon="grommet-icons:cli"></span>
+                  <span className="fab iconify" data-icon="grommet-icons:cli"></span>
                    <p className="langs_desc ll"> CLI </p>
                 </div>
 
                <div className="each_tool">
-                  <span class="fab iconify" data-icon="simple-icons:gnubash"></span>
+                  <span className="fab iconify" data-icon="simple-icons:gnubash"></span>
                   <p className="langs_desc ll"> Bash </p>
               </div>
 
@@ -174,13 +191,30 @@ const Tools = () =>{
     </Fader>
 
 
-    <Fader>
-        <div id="school">
-            <section>
+              <div>
                 <Academic/>
-           </section>
-        </div>
-    </Fader>
+             </div>
+
+
+
+             <Fader>
+          <div className="extra-stuff">
+
+             <h4 className="about_title"> Additional Courses Taken </h4>
+
+             <div className="extra_content">
+
+             {renderCourses()}
+
+             </div>
+
+
+
+
+
+          </div>
+             </Fader>
+
 
   </div>
   )
@@ -192,4 +226,4 @@ const Tools = () =>{
 
 
 
-export default Tools
+export default Content

@@ -1,13 +1,13 @@
 import React from 'react'
 
-import './about.scss'
 
-import colors from './css-colors.js'
 
 import Academic from './Academic/Academic.js'
-import Tools from './Tools/Tools.js'
+import Content from './Content/Content.js'
 
 import Fader from './Fader.js'
+
+import './about.scss'
 
 class Info extends React.Component{
 
@@ -15,10 +15,10 @@ class Info extends React.Component{
 
 
     return(
-  <div id="about">
+
+      <div className='mainSection'>
           <Fader>
-           <div className="">
-              <section className="about" >
+              <div className="about_section">
                   <h3 className="about_title"> About Me</h3>
 
                   <p className="about_content">
@@ -26,44 +26,14 @@ class Info extends React.Component{
                     Pellentesque dictum lacinia enim sit amet lobortis. Sed et nulla quis eros gravida pretium.
                     Integer interdum semper urna, sed mollis leo fermentum quis. Nulla in mauris vitae massa volutpat tincidunt.
                     Pellentesque quis ante egestas nulla egestas eleifend sed nec mauris. Maecenas in erat id risus placerat posuere.
-
                     What I enjoy
                   </p>
-
-               </section>
-           </div>
+               </div>
         </Fader>
 
-
-
-          <Fader>
-              <div className="">
-                <h3 className="about_title"> ToolKit </h3>
-                  <section id="language">
-                    <Tools/>
-                 </section>
-            </div>
-          </Fader>
-
-
-
-
-
-
-
-
-
-        <Fader>
-          <div className="">
-            <section className="extra-stuff">
-               <h4 className="about_title"> Extra Stuff</h4>
-
-                  Courses: Udemy Courses
-
-                  Google Grow
-            </section>
-          </div>
-        </Fader>
+                  <div id="language">
+                    <Content/>
+                  </div>
 
 </div>
     )

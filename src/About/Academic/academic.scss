@@ -9,6 +9,10 @@
   transform: translateY(-450px);
 }
 
+#school{
+  // background-color: red;
+}
+
 
 #conf_section{
   height: 50px;
@@ -54,33 +58,31 @@
   text-align: center;
 }
 
+.about_sub_title{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.about_sub_title_min{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+@media only screen and (max-width: 740px)   {
+  .about_sub_title_min{
+    text-align: center;
+    font-size:20px;
+  }
+}
 
 .about_content{
   text-align: center;
 }
 
 
-#aca_desc p{
-  font-size: 25px;
-  text-align: center;
-  font-weight: bold;
-  padding: 0;
-  margin: 0;
-}
 
-// NOT USED
-.classes{
-  text-align: center;
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, 180px);
-  justify-content: space-evenly;
-  padding-bottom: 0.5%;
-  // background-color: #fefefa;
-  // border-radius: 20px;
-  box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
-  background-color: rgba(245,245,245, 0.3);
-}
 
 .class_item{
   color: #303030;
@@ -95,7 +97,7 @@
 }
 
 .class_item:hover{
-  color: #003366;
+  color: darkred;
   transition-duration: 0.5s;
   transform: scale(1.1);
 }
@@ -105,7 +107,7 @@
 // CONFERNECES
 
 .con_info{
-  // background-color: rgba(245,245,245, 1);
+
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(224,224,224,0.2049194677871149) 100%);
   padding: 30px;
   margin-bottom: 40px;
@@ -124,12 +126,11 @@
 
 .con_date{
   color: grey;
-  // font-weight: 100;
 }
 
 
 .con_desc{
-  // font-size: 20px;
+  font-size: 16px;
 }
 
 .con:hover{
@@ -150,54 +151,17 @@
 
 
 
-
-
-
-
-
-
-
 @media only screen and (max-width: 940px)   {
-  .lang_test div{
-    display: grid;
-    padding: 15px;
-  }
-
-  .lang_test{
-    margin: 30px;
-  }
-
-  .con{
-    margin: 30px;
-    padding-bottom: 20px;
-  }
-
   .about_title{
       font-size: 30px;
   }
-
-  .about_sub_title{
-    text-align: center;
-    font-size: 26px;
-  }
-
 }
 
 
 
 
 
-
-
-
-
 @media only screen and (max-width: 640px)   {
-  #aca_desc p{
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
-  }
-
   .lang_test div{
     display: block;
     padding: 15px;
@@ -205,11 +169,5 @@
 
   .lang_test{
     background-color: rgba(245,245,245, 0.2);
-  }
-  .con{
-    // background-color: red;
-    padding: 0;
-    margin: 0;
-    // width: 100vh;
   }
 }

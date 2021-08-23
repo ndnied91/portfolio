@@ -2,7 +2,6 @@
   transform: translateY(-50px);
   font-weight: bold;
   color: white;
-  // font-size: 40px;
 
   display: flex;
   flex-direction: column;
@@ -147,11 +146,6 @@
 
 
     .desc-title:hover{
-      // transition-duration: 0.2s;
-      // font-size: 35px;
-      // transform: scale(1.1);
-
-      // font-size: 25px;
       color: white;
     }
 
@@ -206,36 +200,47 @@
 
 
 
-  @media only screen and (max-width: 845px) and (min-width: 700px){
-    // .menu{
-    //   display: grid;
-    //   grid-template-columns: repeat(2, 1fr);
-    //   gap: 20px;
-    // }
-    // .acc-content {
-    //   padding-left:0;
-    //   text-align: center;
-    //   transform: translateX(10px);
-    // }
 
-
-    // .acc-list-item i{
-    //   font-size: 50px;
-    //   color: white;
-    // }
-
-  }
 
 
   @media only screen and (max-width: 845px){
-    // .acc-lnk{
-    //     display: contents;
-    //   }
-    //
-    // .acc-content{
-    //     padding: 0;
-    //     text-align: center;
-    // }
+
+    .project-desc{
+      margin: 20px;
+      max-height: 150px;
+      min-height: 200px;
+    }
+
+    .pic{
+      transform: scale(1.5);
+      filter: blur(0.2px) grayscale(10%);
+
+    }
+
+
+    .desc-title{
+      font-size: 12px;
+    }
+
+    .project-desc:hover{
+
+      .desc-title{
+        font-size: 20px;
+        transform: translateY(50px);
+      }
+      .desc{
+        font-size: 12px;
+        transform: translateY(50px);
+
+      }
+      .desc-learn{
+        font-size: 16px;
+        transform: translateY(80px);
+      }
+
+    }
+
+
 
   }
 

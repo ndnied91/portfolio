@@ -48,6 +48,12 @@ const Academic = ()=>{
       <div>
         <Fader>
               <div>
+
+              <div id="academic_section">
+                    <h3 className="about_sub_title"> Computer Science / Data Science Jan 21 </h3>
+                    <h4 className="about_sub_title"> Deans Honors List Recipient (Sept 2016- 2021) </h4>
+              </div>
+
                 {renderSections(20)}
                 {renderSections(19)}
                 {renderSections(18)}
@@ -61,23 +67,18 @@ const Academic = ()=>{
   return(
     <div>
     <p id="conf_section"> </p>
-          <div className="conferences" >
+          <div className="conferences">
             <h3 className="about_title"> Academic Accomplishments </h3>
                   <h3 className="about_sub_title"> Conferences</h3>
                   <div className='con'> {renderConferences()} </div>
-                  <p id="academic_section"></p>
+
           </div>
 
 
-          <div className='academics' id="academics">
 
-            <div id="aca_desc">
-                  <p> Computer Science / Data Science Jan 21 </p>
-                  <p> Deans Honors List Recipient (Sept 2016- 2021) </p>
-            </div>
-
+          <div id="here"></div>
+          <div className='academics'>
                   {printAll()}
-
           </div>
      </div>
   )

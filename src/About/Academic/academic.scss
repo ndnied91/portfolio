@@ -1,9 +1,20 @@
-#academic_section{
-    transform: translateY(-200px);
+.academics{
+  text-align: center;
 }
 
+#here{
+  height: 50px;
+  width: 50px;
+  // background-color: red;
+  transform: translateY(-450px);
+}
+
+
 #conf_section{
-    transform: translateY(-160px);
+  height: 50px;
+  width: 50px;
+// background-color: blue;
+  transform: translateY(-450px);
 }
 
 .lang_test{
@@ -188,13 +199,17 @@
   }
 
   .lang_test div{
-
     display: block;
     padding: 15px;
   }
 
   .lang_test{
     background-color: rgba(245,245,245, 0.2);
-
+  }
+  .con{
+    // background-color: red;
+    padding: 0;
+    margin: 0;
+    // width: 100vh;
   }
 }

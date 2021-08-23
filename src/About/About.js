@@ -37,9 +37,9 @@ class Info extends React.Component{
 
 
           <Fader>
-              <div className="move_up">
+              <div className="">
                 <h3 className="about_title"> ToolKit </h3>
-                  <section className="lang" id="language">
+                  <section id="language">
                     <Tools/>
                  </section>
             </div>
@@ -48,13 +48,7 @@ class Info extends React.Component{
 
 
 
-        <Fader>
-            <div id="school">
-                <section className="school" >
-                    <Academic/>
-               </section>
-            </div>
-        </Fader>
+
 
 
 

@@ -4,12 +4,13 @@ import Fader from '../Fader.js'
 import './tools.scss'
 
 
+import Academic from '../Academic/Academic.js'
 
 const Tools = () =>{
   return(
 <div>
       <Fader>
-          <div className="">
+          <div className="lang">
                   <div className="lang_section">
                       <p className="lang_title"> language</p>
 
@@ -170,6 +171,21 @@ const Tools = () =>{
 
           </div>
       </div>
+    </Fader>
+
+
+    <Fader>
+        <div id="school">
+            <section>
+
+            <div id="academic_section">
+                  <h3 className="about_sub_title"> Computer Science / Data Science Jan 21 </h3>
+                  <h4 className="about_sub_title"> Deans Honors List Recipient (Sept 2016- 2021) </h4>
+            </div>
+            
+                <Academic/>
+           </section>
+        </div>
     </Fader>
 
   </div>

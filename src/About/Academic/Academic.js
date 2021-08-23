@@ -79,7 +79,7 @@ const Academic = ()=>{
 
 
 
-          <div id="here"></div>
+          <div id="school"></div>
           <div className='academics'>
                   {printAll()}
           </div>

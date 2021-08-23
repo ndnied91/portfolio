@@ -1,8 +1,7 @@
 .desc-title{
   transform: translateY(-50px);
   font-weight: bold;
-  color: white;
-  // font-size: 40px;
+  color: black;
 
   display: flex;
   flex-direction: column;
@@ -10,31 +9,31 @@
 }
 
 .learn_btn{
+  border: 2px solid #166484;
   width: 50%;
   display: inline;
   padding: 15px;
-
-
-  font-weight: bold;
-  color: white;
+  border-radius: 20px;
+  background-color: white;
 }
-
 
 .learn_btn:hover{
   cursor: pointer;
+  // transition-duration: 2s;
+
 }
+
 
 .desc{
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
+  transform: translateY(300px);
 }
 
 .desc-learn{
   display: block;
-  color: white;
-
 }
 
 .desc-learn{
@@ -44,22 +43,24 @@
 
 .project-desc{
   background-color: #F5F5F5;
+  margin: 10px;
   min-height: 300px;
   max-height: 300px;
   overflow: hidden;
   position: sticky;
-  border-radius: 30px;
+  // opacity: 1;
+  // z-index: 1;
 
   box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
 
   animation: 1s fadein 0.3s forwards;
-
-  margin: 50px;
 }
 
 
 .project-desc:hover{
-   background-color: rgba(0,0,0, 0.6);
+  .pic{
+    filter: blur(0);
+  }
 }
 
 .project-grid{
@@ -75,21 +76,17 @@
   transform: scale(1.6) translateY(-20px);
   overflow: hidden;
   background-position: center;
-  z-index: 0;
+  z-index: 1;
   position: sticky;
-  opacity: 1;
-  filter:  brightness(95%)
+  // opacity: 0;
+
+  filter: blur(2px);
 }
 
 
 
 
-.project-desc:hover{
-  .pic{
-    filter: blur(5px)  grayscale(100%);
-  }
 
-}
 
 
 
@@ -116,16 +113,12 @@
 
     transition-duration: 0.5s;
     box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.16);
-    color: white;
-    font-size: 20px;
 
   .pic{
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
-    opacity: 1;
+    opacity: 0;
     z-index: -5;
-    filter: blur(5px)  grayscale(100%);
-    opacity: 0.4;
   }
 
 
@@ -142,17 +135,15 @@
     transform: translateY(80px);
     display: flex;
     justify-content: center;
-    font-size: 45px;
+    font-size: 30px;
   }
 
 
     .desc-title:hover{
-      // transition-duration: 0.2s;
-      // font-size: 35px;
+      transition-duration: 0.2s;
+      font-size: 35px;
       // transform: scale(1.1);
-
-      // font-size: 25px;
-      color: white;
+      color: black;
     }
 
   .desc-learn{
@@ -276,3 +267,12 @@
       opacity: 1;
     }
   }
+
+
+
+  /*
+  /*
+  845-820 make it so two are there
+  1180-1100 text is off
+
+  /* */

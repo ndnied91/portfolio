@@ -177,12 +177,6 @@ const Tools = () =>{
     <Fader>
         <div id="school">
             <section>
-
-            <div id="academic_section">
-                  <h3 className="about_sub_title"> Computer Science / Data Science Jan 21 </h3>
-                  <h4 className="about_sub_title"> Deans Honors List Recipient (Sept 2016- 2021) </h4>
-            </div>
-            
                 <Academic/>
            </section>
         </div>

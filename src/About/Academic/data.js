@@ -51,7 +51,7 @@ export const conferences =[
     {conference:'Kean Research Days' ,
       title: "How Performance Affects Popularity in the NBA and Beyond ",
       date: '04-27-20',
-      desc: ''},
+      desc: 'Predicts how well a player will perform in the following season as well as how a player’s performance impacts their popularity on social media.'},
 
 
   {conference:'Kean Research Days',

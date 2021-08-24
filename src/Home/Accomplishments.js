@@ -27,7 +27,7 @@ const Accomplishments = () => {
 
 
           <div className="each-acc-item">
-               <a className="acc-lnk" href= "/about#conf_section" rel="noreferrer">
+               <a className="acc-lnk" href= "/about#conf" rel="noreferrer">
                   <li className="acc-list-item"> <i className="fa fa-signal"></i> </li>
 
                   <div className="acc-content">

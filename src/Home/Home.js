@@ -36,7 +36,7 @@ const Home=()=>{
 
         <div style={objStyle}>
 
-               <h3> Who am I </h3>
+               <h3 className="acc_title"> Who am I </h3>
 
                  Hello, my name is Daniel Niedzwiedzki and I am a Full Stack Developer based out of NJ / NY.
                   I am highly experienced in designing & developing full stack custom websites whilst cultivating an unmatched user experience.
@@ -52,7 +52,7 @@ const Home=()=>{
            </div>
 
 
-        <h3> Accomplishments:</h3>
+        <h3 className="acc_title"> Accomplishments</h3>
 
             <Accomplishments/>
 

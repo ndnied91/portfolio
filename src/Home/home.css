@@ -97,6 +97,10 @@ div{
     display: inline-block;
 }
 
+.acc_title{
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .container{
     padding: 5px;

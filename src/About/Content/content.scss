@@ -144,10 +144,18 @@
   padding-top: 20px;
   margin-left: 25px;
   margin-right: 25px;
-
   text-align: center;
   border-radius: 20px;
   box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
+}
+
+.extra_content div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
 }
 
 

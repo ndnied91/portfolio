@@ -9,6 +9,7 @@ import Fader from '../Fader.js'
 const Academic = ()=>{
 
 
+
   const renderClasses = (year)=>{
     return classes.map( (cls , index)=>{
         if(cls.year.includes(year)){
@@ -22,7 +23,8 @@ const Academic = ()=>{
     return conferences.map( (con , index)=>{
       return(
         <div className="con_info"key={index}>
-                  <h4>{con.title} </h4>
+                  <h3 className="con_name">{con.conference} </h3>
+                  <h3 className="con_title">{con.title} </h3>
                     <span className="con_date"> { con.date } </span>
                     <p className="con_desc"> {con.desc}</p>
          </div>
@@ -65,10 +67,10 @@ const Academic = ()=>{
   }
 
   return(
-    <div>
+    <div id="conf">
       <Fader>
 
-          <p id="conf_section"> </p>
+
 
           <div className="conferences">
             <h3 className="about_title"> Academic Accomplishments </h3>
@@ -76,6 +78,7 @@ const Academic = ()=>{
                   <div className='con'> {renderConferences()} </div>
 
           </div>
+
 
 
 

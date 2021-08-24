@@ -202,7 +202,7 @@ const renderCourses = () =>{
 
              <h4 className="about_title"> Additional Courses Taken </h4>
 
-             <div className="extra_content lang_test ">
+             <div className="extra_content">
 
              {renderCourses()}
 

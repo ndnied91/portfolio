@@ -48,12 +48,12 @@
   overflow: hidden;
   position: sticky;
   border-radius: 30px;
+  margin: 50px;
 
   box-shadow: 3px 4px 2px 0px rgba(0,0,0,0.16);
-
   animation: 1s fadein 0.3s forwards;
 
-  margin: 50px;
+
 }
 
 
@@ -63,7 +63,7 @@
 
 .project-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40vh, 2fr));
+  grid-template-columns: repeat(2, minmax(40vh, 1fr));
 }
 
 
@@ -77,8 +77,12 @@
   z-index: 0;
   position: sticky;
   opacity: 1;
-  filter:  brightness(95%)
+
+  filter: brightness(75%) grayscale(10%);
+
 }
+
+
 
 
 
@@ -89,6 +93,27 @@
   }
 
 }
+
+
+
+
+@media only screen and (max-width: 1540px) and (min-width: 680px)  {
+
+  .project-desc{
+      margin: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -207,13 +232,22 @@
 
     .project-desc{
       margin: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
       max-height: 150px;
       min-height: 200px;
+      margin-bottom: 50px;
+    }
+
+    .project-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(40vh, 4fr));
+
     }
 
     .pic{
       transform: scale(1.5);
-      filter: blur(0.2px) grayscale(10%);
+      filter: brightness(75%) grayscale(10%);
 
     }
 

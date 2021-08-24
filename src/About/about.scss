@@ -3,15 +3,97 @@
 #language{
   padding-top: 0;
   margin-top: 0;
-  transform: scale(0.8) translateY(-12%);
-}
+  // transform: scale(0.8) translateY(-12%);
 
-.about_section{
-  padding-bottom: 0;
 }
 
 
-.language{
-  padding-bottom: 0;
-  margin-bottom: 0;
+
+
+
+@media only screen and (max-width: 990px) and (min-width: 670px)  {
+    .each_tool{
+        margin: 0;
+        font-size: 20px;
+    }
+    .lang_title{
+      padding-bottom: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1140px) and (min-width: 990px)  {
+    .each_tool{
+      font-size: 20px;
+        margin: 0;
+    }
+
+    .langs{
+      padding-top: 10px;
+    }
+    .lang_title{
+      padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 670px)   {
+
+  .about_title{
+    font-size: 25px;
+  }
+
+  .about_sub_title{
+    font-size: 20px;
+  }
+
+  .about_sub_title_min{
+    font-size: 16px;
+  }
+
+  .lang_test{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .lang_test div {
+      padding:5px;
+      font-size: 12px;
+  }
+
+
+.class_item{
+
+  padding: 0px;
+  margin: 0px;
+}
+
+
+  .each_tool{
+    margin: 2%;
+    transform: scale(0.8);
+  }
+
+  .lang_title{
+    transform: scale(0.8);
+  }
+
+.con{
+    padding: 20px;
+}
+
+#conf_section{
+  height: 0;
+    width: 0;
+    transform: translateY(0);
+}
+
+.con_desc{
+  font-size: 14px;
+}
+
 }

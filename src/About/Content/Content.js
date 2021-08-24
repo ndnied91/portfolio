@@ -197,12 +197,12 @@ const renderCourses = () =>{
 
 
 
-             <Fader>
-          <div className="extra-stuff">
+       <Fader>
+          <div className="extra-stuff ">
 
              <h4 className="about_title"> Additional Courses Taken </h4>
 
-             <div className="extra_content">
+             <div className="extra_content lang_test ">
 
              {renderCourses()}
 
@@ -213,7 +213,7 @@ const renderCourses = () =>{
 
 
           </div>
-             </Fader>
+      </Fader>
 
 
   </div>

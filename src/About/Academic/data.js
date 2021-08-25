@@ -30,38 +30,33 @@ export const classes = [ 
 export const conferences =[
   {conference:'Kean Research Days' ,
     title: "Mapping the Socioeconomic Impact on COVID-19 ", date: '04-27-21' ,
-    desc: "Research project displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
+    desc: "Research project which displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
 
 
   {conference:'National Conference on Undergraduate Research (NCUR)' ,
     title: "Impact of COVID-19 by Income and Population", date: '04-01-21' , date: '04-12-21',
-    desc: "Research project displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
+    desc: "Research project which displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
 
   {conference:'Great Minds in STEM',
     title: "Mapping the Socioeconomic Impact on COVID-19 ",
     date: '10-5-20',
-    desc: 'Lorem ipsuid odio malesuada.'},
+    desc: "Research project which displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
+
+  {conference:'Kean Research Days' ,
+    title: "How Performance Affects Popularity in the NBA and Beyond ",
+    date: '04-27-20',
+    desc: 'Project which predicts how well a player will perform in the following season, as well as how a player’s performance impacts their popularity on social media.'},
 
 
   {conference:'National Conference on Undergraduate Research (NCUR)',
     title: "Social Chatbots for Mental Health Services", date: '04-27-20' ,
     date: '04-27-20',
-    desc: 'Lorem ipsum dolor sit amet, dignissim volutpat. Duis quis vehicula ipsum. Cras auctor arcu id odio malesuada.'},
-
-    {conference:'Kean Research Days' ,
-      title: "How Performance Affects Popularity in the NBA and Beyond ",
-      date: '04-27-20',
-      desc: 'Predicts how well a player will perform in the following season as well as how a player’s performance impacts their popularity on social media.'},
-
+    desc:  'Project that guides a user through social service options based on user inputs via a chatbot'
+  },
 
   {conference:'Kean Research Days',
     title: "Guiding Mental Health Issues through Chatbots", date: '04-27-20' ,
-   desc: 'dignissim volutpat. Duis quis vehicula ipsum. Cras auctor arcu id odio malesuada.'},
-
-   {conference:'National Conference on Undergraduate Research (NCUR)' ,
-     title: "Visualizing the Socioeconomic Impact on COVID-19",
-     date: '03-26-20',
-     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+   desc: 'Project that guides a user through social service options based on user inputs via a chatbot'}
 
 ]
 

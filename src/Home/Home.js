@@ -10,7 +10,7 @@ import './home.css'
 
 
 const Home=()=>{
-    const objStyle={ height: '50%' }
+    const objStyle={ height: '50%' ,textAlign: 'center'}
 
 
 
@@ -34,21 +34,24 @@ const Home=()=>{
 
 
 
-        <div style={objStyle}>
+        <div style={objStyle} className="about_centered">
 
                <h3 className="acc_title"> Who am I </h3>
 
+               <p className='about_content'>
                  Hello, my name is Daniel Niedzwiedzki and I am a Full Stack Developer based out of NJ / NY.
                   I am highly experienced in designing & developing full stack custom websites whilst cultivating an unmatched user experience.
                  <br/>
+              </p>
 
-                 <br/>
-                 I recently graduated with a Bachellors of Science degreee in Computer Science / Data Science from
+                <p className='about_content'>
+                    I recently graduated with a Bachellors of Science degreee in Computer Science / Data Science from
                    <span> <a href="https://www.kean.edu" target="_blank" rel="noreferrer"> Kean University  </a> </span>
-                 <br/>
+                </p>
 
-                <br/>
-                 I have passion for creating intuitive, dynamic user friendly websites.
+                 <p className='about_content'>
+                  I have passion for creating intuitive, dynamic user friendly websites.
+                 </p>
            </div>
 
 

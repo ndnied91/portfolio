@@ -60,7 +60,7 @@ switch(project){
 
                 <div className='project-desc'>
                   <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Portfolio</a>
-                      <div className="desc effect1"> A portfolio used to display all relevant work </div>
+                       <div className="desc effect1">  <span>  JavaScript | ReactJS | NodeJS </span>  </div>
                       <div className="desc-learn effect1" onClick={()=>changeState('portfolio')}>
                           {this.state.showPortfolio ?
                               <UniModal link={'/'}
@@ -77,8 +77,8 @@ switch(project){
 
 
               <div className='project-desc'>
-                    <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Who's That Pokemon</a>
-                    <div className="desc effect1"> An interactive Pokemon guessing game</div>
+                    <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Who's That Pokemon?</a>
+                      <div className="desc effect1">  <span>  JavaScript | ReactJS | NodeJS </span>  </div>
                     <div className="desc-learn effect1" onClick={()=>changeState('pokemon')}>
                         {this.state.showPokemon ?
                           <UniModal link={'/'}
@@ -96,7 +96,7 @@ switch(project){
                 <div className='project-desc'>
                       <a className="desc-title effect1" href='http://covidvisualizer.herokuapp.com'  target="_blank" rel="noreferrer">Covid-19 Visualizer</a>
 
-                      <div className="desc effect1">  <span> Covid-19 Visualizer that displays up to date covid info  </span>  </div>
+                      <div className="desc effect1">  <span>  JavaScript | ReactJS | NodeJS</span>  </div>
                       <div className="desc-learn effect1" onClick={()=>changeState('covid')}>
                           {this.state.showCovid ?
                             <UniModal link={'http://covidvisualizer.herokuapp.com'}
@@ -113,7 +113,7 @@ switch(project){
 
                <div className='project-desc'>
                      <a className="desc-title effect1" href='https://traveling-the-world.herokuapp.com'  target="_blank" rel="noreferrer">Travel Blog</a>
-                       <div className="desc effect1"> Travel blog that displays articles outlining different trips  </div>
+                         <div className="desc effect1">  <span>  JavaScript | ReactJS | NodeJS</span>  </div>
 
                      <div className="desc-learn effect1" onClick={()=>changeState('travelBlog')}>
                          {this.state.showTravelBlog ?
@@ -132,7 +132,8 @@ switch(project){
 
               <div className='project-desc'>
                     <a className="desc-title effect1" href='http://yoda.kean.edu/~niedzwid/CPS4721/hw3.1.html'  target="_blank" rel="noreferrer">Image Classifer</a>
-                    <div className="desc"> Image Classier that uses machine learning to detect a user input photo </div>
+
+                      <div className="desc effect1">  <span>  Python | MySQL | TensorFlow </span>  </div>
                     <div className="desc-learn effect1" onClick={()=>changeState('imageClass')}>
                         {this.state.showimageClass ?
                           <UniModal link={'http://yoda.kean.edu/~niedzwid/CPS4721/hw3.1.html'}
@@ -151,7 +152,7 @@ switch(project){
 
              <div className='project-desc'>
                    <a className="desc-title effect1" href='https://enigmatic-bastion-91344.herokuapp.com'  target="_blank" rel="noreferrer">Kean Dorm Rental</a>
-                   <div className="desc effect1"> Dorm rental system letting students rent out dorms for semester </div>
+                   <div className="desc effect1">  <span>  JavaScript | NodeJS | MongoDB </span>  </div>
                    <div className="desc-learn effect1" onClick={()=>changeState('dormRental')}>
                        {this.state.showDormRental ?
                          <UniModal link={'https://enigmatic-bastion-91344.herokuapp.com'}

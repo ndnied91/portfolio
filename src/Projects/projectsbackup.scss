@@ -1,4 +1,80 @@
 
+
+
+
+
+.project-desc:hover{
+
+    transition-duration: 0.5s;
+    box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.16);
+    color: white;
+    font-size: 1.7vh;
+    text-align: center;
+
+  .pic{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    opacity: 0;
+    z-index: -5;
+    filter: blur(5px)  grayscale(100%);
+    opacity: 0.4;
+  }
+
+
+
+  .desc{
+    // transition-duration: 0.5s;
+    transform: translateY(80px);
+  }
+
+  .desc-title{
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transform: translateY(80px);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+
+
+  .desc-title:hover{
+    color: white;
+  }
+
+  .desc-learn{
+        transform: translateY(150px);
+  }
+
+  .learn_btn{
+    font-size: 1.5vh;
+  }
+  .learn_btn:hover{
+    transition-duration: 0.5s;
+    opacity: 0.9;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .desc-title{
   transform: translateY(-50px);
   font-weight: bold;
@@ -13,8 +89,6 @@
   width: 50%;
   display: inline;
   padding: 15px;
-
-
   font-weight: bold;
   color: white;
 }
@@ -27,10 +101,8 @@
 .desc{
   padding: 0;
   margin: 0;
-  font-size: 18px;
   display: flex;
   justify-content: center;
-  opacity: 0;
 }
 
 .desc-learn{
@@ -81,14 +153,13 @@
   border-radius: 0;
   height: auto;
   width: auto;
-  transform: scale(1.6) translateY(-20px);
+  transform: scale(1.5) translateY(-20px);
   overflow: hidden;
   background-position: center;
   z-index: 0;
   position: sticky;
   opacity: 1;
-  // filter: brightness(75%) grayscale(10%);
-  // filter: brightness(95%) grayscale(10%);
+  // filter: brightness(100%);
 }
 
 
@@ -98,7 +169,7 @@
 
 .project-desc:hover{
   .pic{
-    filter: blur(5px)  grayscale(100%);
+    // filter: blur(0px)  grayscale(100%);
   }
 
 }
@@ -120,59 +191,34 @@
 
 
 
-.project-desc:hover{
 
-    transition-duration: 0.5s;
-    box-shadow: 5px 7px 5px 2px rgba(0,0,0,0.16);
-    color: white;
-    font-size: 1.7vh;
-    text-align: center;
 
-  .pic{
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in;
-    opacity: 1;
-    z-index: -5;
-    filter: blur(5px) grayscale(100%);
-    opacity: 0.4;
+// @media only screen and (max-width: 1300px) and (min-width: 1100px)  {
+//   .poketitle{
+//     font-size: 28px !important;
+//   }
+// }
+
+
+
+
+@media only screen and (max-width: 940px) and (min-width: 750px)  {
+  .kean{
+      transform: scale(1.5)  translateY(-50px) ;
+  }
+  .tweak{
+      transform: scale(1.5) translateY(-10px) ;
   }
 
-
-
-  .desc{
-    transform: translateY(80px);
-    opacity: 1;
-  }
-
-  .desc-title{
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-    transform: translateY(80px);
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-  }
-
-
-
-  .desc-title:hover{
-    color: white;
-  }
-
-  .desc-learn{
-        transform: translateY(150px);
-  }
-
-  .learn_btn{
-    font-size: 1.5vh;
-  }
-  .learn_btn:hover{
-    transition-duration: 0.5s;
-    opacity: 0.9;
-
+  .image{
+      transform: scale(1.5) translateY(20px) ;
   }
 
 }
+
+
+
+
 
 
 
@@ -206,9 +252,18 @@
       transition: all 0.5s ease;
   }
 
-  // .effect1:hover {
-  //   transition-duration: 1s;
-  // }
+  .effect1:hover {
+    transition-duration: 1s;
+  }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -216,19 +271,22 @@
 
     .project-desc{
       margin: 20px;
-      // max-height: 150px;
+      // margin-left: 50px;
+      // margin-right: 50px;
+      max-height: 150px;
       min-height: 200px;
       margin-bottom: 50px;
     }
 
     .project-grid{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30vh, 4fr));
+      grid-template-columns: repeat(auto-fit, minmax(40vh, 4fr));
 
     }
 
     .pic{
-      filter: brightness(75%) grayscale(10%);
+      // transform: scale(1.8);
+      // filter: brightness(75%) grayscale(10%);
     }
 
     .desc-title{
@@ -243,22 +301,16 @@
         transform: translateY(50px);
       }
       .desc{
-        transform: translateY(250%);
-        font-size: 1.2em;
+        font-size: 12px;
+        transform: translateY(50px);
+
       }
       .desc-learn{
         font-size: 16px;
+        transform: translateY(80px);
       }
 
-      // .learn_btn{
-        // color: red;
-        // transform: translateY(-2000em);
-      // }
-
     }
-
-
-
   }
 
 

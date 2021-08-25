@@ -44,6 +44,7 @@ switch(project){
         }
 
 
+
 }
 
 
@@ -59,11 +60,11 @@ switch(project){
 
                 <div className='project-desc'>
                   <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Portfolio</a>
-                      <p className="desc effect1"> Description about portfolio  </p>
+                      <p className="desc effect1"> A portfolio used to display all relevant work </p>
                       <div className="desc-learn effect1" onClick={()=>changeState('portfolio')}>
                           {this.state.showPortfolio ?
                               <UniModal link={'/'}
-                                  desc={' Description about portfolio '} title={'Portfolio'}
+                                  desc={' A portfolio project used to display all my work / background and info '} title={'Portfolio'}
                                   lang={['JavaScript' , 'ReactJS' , 'HTML' ,'CSS' , 'SCSS'] }
                                   github={'/https://github.com/ndnied91/portfolio'}
                                           /> : <div className="learn_btn"> LEARN MORE </div>  }
@@ -76,8 +77,8 @@ switch(project){
 
 
               <div className='project-desc'>
-                    <a className="desc-title poke effect1" href='/'  target="_blank" rel="noreferrer">Pokemon Guessing Game</a>
-                    <p className="desc effect1"> Description about pokemon game  </p>
+                    <a className="desc-title poketitle effect1" href='/'  target="_blank" rel="noreferrer">Pokemon Guessing Game</a>
+                    <p className="desc effect1"> An interactive Pokemon guessing game</p>
                     <div className="desc-learn effect1" onClick={()=>changeState('pokemon')}>
                         {this.state.showPokemon ?
                           <UniModal link={'/'}
@@ -94,7 +95,7 @@ switch(project){
 
                 <div className='project-desc'>
                       <a className="desc-title effect1" href='http://covidvisualizer.herokuapp.com'  target="_blank" rel="noreferrer">Covid-19 Visualizer</a>
-                      <p className="desc effect1"> Description about covid tracker  </p>
+                      <p className="desc effect1"> A Covid-19 visualizer which displays current covid data </p>
                       <div className="desc-learn effect1" onClick={()=>changeState('covid')}>
                           {this.state.showCovid ?
                             <UniModal link={'http://covidvisualizer.herokuapp.com'}
@@ -111,7 +112,7 @@ switch(project){
 
                <div className='project-desc'>
                      <a className="desc-title effect1" href='https://traveling-the-world.herokuapp.com'  target="_blank" rel="noreferrer">Travel Blog</a>
-                     <p className="desc effect1"> Description about Travel Blog  </p>
+                     <p className="desc effect1"> A travel blog which displays articles outlining different trips </p>
                      <div className="desc-learn effect1" onClick={()=>changeState('travelBlog')}>
                          {this.state.showTravelBlog ?
 
@@ -129,7 +130,7 @@ switch(project){
 
               <div className='project-desc'>
                     <a className="desc-title effect1" href='http://yoda.kean.edu/~niedzwid/CPS4721/hw3.1.html'  target="_blank" rel="noreferrer">Image Classifer</a>
-                    <p className="desc"> Description about Image Classifier  </p>
+                    <p className="desc"> Image Classier that uses machine learning to detect a user input photo </p>
                     <div className="desc-learn effect1" onClick={()=>changeState('imageClass')}>
                         {this.state.showimageClass ?
                           <UniModal link={'http://yoda.kean.edu/~niedzwid/CPS4721/hw3.1.html'}
@@ -148,11 +149,11 @@ switch(project){
 
              <div className='project-desc'>
                    <a className="desc-title effect1" href='https://enigmatic-bastion-91344.herokuapp.com'  target="_blank" rel="noreferrer">Kean Dorm Rental</a>
-                   <p className="desc effect1"> Description about portfolio  </p>
+                   <p className="desc effect1"> System which lets students rent out individual dorms for the semester </p>
                    <div className="desc-learn effect1" onClick={()=>changeState('dormRental')}>
                        {this.state.showDormRental ?
                          <UniModal link={'https://enigmatic-bastion-91344.herokuapp.com'}
-                             desc={'Description about Dorm Rental System'} title={'Kean Dorm Rental'}
+                             desc={'Dorm rental system which lets students rent out individual dorms for the semester'} title={'Kean Dorm Rental'}
                              lang={['JavaScript' , 'ReactJS' , 'HTML' ,'CSS' , 'SCSS' , 'Redux' , 'NodeJS' , 'MongoDB'] }
                              github={'https://github.com/ndnied91/Dorm-Project'}
                                      />

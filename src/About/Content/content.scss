@@ -34,11 +34,12 @@
 }
 
 
-.extra-stuff{
-    // transform: translateY(-100px);
-    // background-color: red;
+.extra_title{
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  // margin: 0
 }
-
 
 
 
@@ -137,8 +138,20 @@
 
 .extra-stuff{
   height: 100%;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
 }
+
+
+@media only screen and (max-width: 670px)   {
+  .extra-stuff{
+    height: 100%;
+    padding-bottom: 2vh;
+  }
+
+}
+
+
+
 
 .extra_content{
   padding-top: 20px;
@@ -161,18 +174,17 @@
 
 .extra_name{
   font-size: 14px;
-  font-weight: bold;
   margin: 10px;
 
 }
 
-.extra_name a{
-  color: darkred;
+.extra_name{
+  color: black;
   margin: 10px;
-
 }
 
 .extra_name:hover{
   transition-duration: 1s;
-  transform: scale(1.2);
+  transform: scale(1.1);
+  color: darkred;
 }

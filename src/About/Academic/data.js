@@ -30,28 +30,29 @@ export const classes = [ 
 export const conferences =[
   {conference:'Kean Research Days' ,
     title: "Mapping the Socioeconomic Impact on COVID-19 ", date: '04-27-21' ,
-    desc: "Research project which displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
+    desc: "This research project displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. User can track individual state or county data which displays current covid facts that update daily. It also provides a clear view of outbreak hotspots along with income and population in a selected area."},
 
 
   {conference:'National Conference on Undergraduate Research (NCUR)' ,
     title: "Impact of COVID-19 by Income and Population", date: '04-01-21' , date: '04-12-21',
-    desc: "Research project which displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
+    desc: "This research project displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. User can filter view points to better understand a specific area on the country in relation to the rest of the United States."},
+
 
   {conference:'Great Minds in STEM',
     title: "Mapping the Socioeconomic Impact on COVID-19 ",
     date: '10-5-20',
-    desc: "Research project which displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. Provides a clear view of outbreak hotspots along with income and population in a selected area."},
+    desc: "This research project displays a real-time visual representation of COVID-19 cases in regard to population and income at a state and county-level. It also provides a clear view of outbreak hotspots along with income and population in a selected area."},
 
   {conference:'Kean Research Days' ,
     title: "How Performance Affects Popularity in the NBA and Beyond ",
     date: '04-27-20',
-    desc: 'Project which predicts how well a player will perform in the following season, as well as how a player’s performance impacts their popularity on social media.'},
+    desc: 'This research project predicts how well a player will perform within a season, as well as how a player’s performance impacts their popularity on social media.'},
 
 
   {conference:'National Conference on Undergraduate Research (NCUR)',
     title: "Social Chatbots for Mental Health Services", date: '04-27-20' ,
     date: '04-27-20',
-    desc:  'Project that guides a user through social service options based on user inputs via a chatbot'
+    desc:  'Project that guides a user through social service options based on user inputs via a chatbot.'
   },
 
   {conference:'Kean Research Days',

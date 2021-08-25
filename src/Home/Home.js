@@ -67,7 +67,7 @@ const Home=()=>{
 
           <ButtonStyles>
              <section className="direction">
-                <a className="current" href= "/about" rel="noreferrer"> About my Jounrey</a>
+                <a className="current" href= "/about" rel="noreferrer"> About my Journey</a>
                 <a className="current" href= "/projects" rel="noreferrer"> View My Work </a>
           </section>
          </ButtonStyles>

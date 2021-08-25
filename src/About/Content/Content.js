@@ -15,7 +15,7 @@ const renderCourses = () =>{
   return(
     <div>
       {udemy.map( (course)=>{
-        return <div className="extra_name">  <a  href={course.url }  rel="noreferrer"  target="_blank"> {course.name} </a> </div>
+        return <div >  <a className="extra_name" href={course.url }  rel="noreferrer"  target="_blank"> {course.name} </a> </div>
       })}
      </div>
   )
@@ -197,10 +197,10 @@ const renderCourses = () =>{
 
 
 
-       <Fader>
-          <div className="extra-stuff ">
 
-             <h4 className="about_title"> Additional Courses Taken </h4>
+          <div className="extra-stuff ">
+   <Fader>
+             <h3 className="about_title"> Additional Courses Taken </h3>
 
              <div className="extra_content">
 
@@ -211,9 +211,9 @@ const renderCourses = () =>{
 
 
 
-
+  </Fader>
           </div>
-      </Fader>
+
 
 
   </div>

@@ -23,7 +23,7 @@
   padding: 30px;
 }
 .contact_item{
-  background-color: white;
+  background-color: transparent;
   width: 100px;
   text-align: -webkit-center;
   display: inline-table;
@@ -46,7 +46,7 @@
 
 .contact_info{
     text-align: center;
-    min-height: 50vh;
+    min-height: 60vh;
 }
 
 .menu{
@@ -109,5 +109,8 @@
 @media screen and (max-width : 818px){
     .content{
       padding: 0;
+    }
+    .contact_info{
+        min-height: 70vh;
     }
 }

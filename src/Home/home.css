@@ -296,8 +296,10 @@ nav { display: none; }
       }
 
       .section__subtitle--intro{
-        width: 170%;
-        left: -10.5em;
+        /* width: 170%; */
+        width: 140%;
+        /* left: -10.5em; */
+        left: -6em;
       }
 
       .intro__img {

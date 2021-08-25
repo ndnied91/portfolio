@@ -51,8 +51,8 @@ const Academic = ()=>{
       <Fader>
           <div>
             <div id="academic_section">
-                  <h3 className="about_sub_title_min"> Computer Science / Data Science Jan 21' </h3>
-                  <h4 className="about_sub_title_min"> Deans Honors List Recipient <br/>(Sept 2016- 2021) </h4>
+                  <h3 className="about_sub_title"> Computer Science / Data Science Jan 21' </h3>
+                  <h4 className="about_sub_title"> Deans Honors List Recipient <br/>(Sept 2016- 2021) </h4>
             </div>
 
               {renderSections(20)}

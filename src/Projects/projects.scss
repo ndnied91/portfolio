@@ -187,7 +187,6 @@
 
 
   .desc-title:hover{
-    font-size: 30px;
     color: white;
   }
 
@@ -271,7 +270,7 @@
     }
 
     .pic{
-      transform: scale(1.8);
+      // transform: scale(1.8);
       filter: brightness(75%) grayscale(10%);
     }
 

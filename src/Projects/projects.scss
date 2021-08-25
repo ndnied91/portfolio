@@ -85,9 +85,8 @@
   z-index: 0;
   position: sticky;
   opacity: 1;
-
-  filter: brightness(75%) grayscale(10%);
-
+  // filter: brightness(75%) grayscale(10%);
+  filter: brightness(95%) grayscale(10%);
 }
 
 
@@ -170,7 +169,6 @@
   .desc{
     transition-duration: 0.5s;
     transform: translateY(80px);
-    // font-weight: bold;
   }
 
   .desc-title{
@@ -255,9 +253,6 @@
 
 
 
-
-
-  // @media only screen and (max-width: 845px){
     @media only screen and (max-width: 945px){
 
     .project-desc{
@@ -276,15 +271,9 @@
     }
 
     .pic{
-      transform: scale(1.5);
+      transform: scale(1.8);
       filter: brightness(75%) grayscale(10%);
-
     }
-
-    .poketitle {
-      // font-size: 36px !important
-    }
-
 
     .desc-title{
       font-size: 12px;

@@ -40,9 +40,8 @@
 //   font-size: 16px;
 // }
 
-// .poketitle{
-//   font-size: 26px;
-// }
+
+
 
 .desc-learn{
     transform: translateY(300px);
@@ -180,10 +179,6 @@
     font-size: 30px;
   }
 
-  // .poketitle {
-  //   font-size: 30px;
-  // }
-
 
 
   .desc-title:hover{
@@ -195,7 +190,7 @@
   }
 
   .learn_btn{
-    font-size: 22px;
+    font-size: 1.5vh;
   }
   .learn_btn:hover{
     transition-duration: 0.5s;
@@ -283,7 +278,6 @@
     .project-desc:hover{
 
       .desc-title{
-        font-size: 20px;
         transform: translateY(50px);
       }
       .desc{

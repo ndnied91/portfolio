@@ -77,7 +77,7 @@ switch(project){
 
 
               <div className='project-desc'>
-                    <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Guessing Game</a>
+                    <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Who's That Pokemon</a>
                     <p className="desc effect1"> An interactive Pokemon guessing game</p>
                     <div className="desc-learn effect1" onClick={()=>changeState('pokemon')}>
                         {this.state.showPokemon ?

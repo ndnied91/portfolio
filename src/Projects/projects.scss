@@ -25,9 +25,9 @@
 }
 
 .desc{
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   opacity: 0;
@@ -81,7 +81,8 @@
   border-radius: 0;
   height: auto;
   width: auto;
-  transform: scale(1.6) translateY(-20px);
+  transform: scale(1.6) translateY(-40px);
+
   overflow: hidden;
   background-position: center;
   z-index: 0;
@@ -243,7 +244,7 @@
         transform: translateY(50px);
       }
       .desc{
-        transform: translateY(250%);
+        transform: translateY(150%);
         // font-size: 1.2em;
       }
       .desc-learn{

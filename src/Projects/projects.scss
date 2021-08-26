@@ -251,7 +251,27 @@
   }
 
 
+.codepen{
+  // background-color: lightgrey;
+  // border-radius: 20px;
+  text-align: center;
+  color: grey;
+}
 
+.additional_code_item a{
+  font-size: 14px;
+  color: grey;
+}
+
+.additional_code_item:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.additional_code{
+  display: flex;
+  justify-content: center;
+}
 
 
   @media only screen and (max-width: 740px){

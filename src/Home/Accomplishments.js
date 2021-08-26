@@ -56,7 +56,7 @@ const Accomplishments = () => {
 
 
           <div className="each-acc-item">
-               <a className="acc-lnk" href= "/projects" rel="noreferrer">
+               <a className="acc-lnk" href= "/resume" rel="noreferrer">
                   <li className="acc-list-item"> <i className="fas fa-briefcase"></i> </li>
                   <div className="acc-content">
                     <p className="acc-content-title">Work Experience </p>

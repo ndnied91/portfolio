@@ -60,7 +60,7 @@ switch(project){
 
                 <div className='project-desc'>
                   <a className="desc-title effect1" href='/'  target="_blank" rel="noreferrer">Portfolio</a>
-                       <div className="desc effect1">  <span>  | ReactJS | NodeJS | SCSS </span>  </div>
+                       <div className="desc effect1">  <span>  ReactJS | NodeJS | SCSS </span>  </div>
                       <div className="desc-learn effect1" onClick={()=>changeState('portfolio')}>
                           {this.state.showPortfolio ?
                               <UniModal link={'/'}
@@ -96,7 +96,7 @@ switch(project){
                 <div className='project-desc'>
                       <a className="desc-title effect1" href='http://covidvisualizer.herokuapp.com'  target="_blank" rel="noreferrer">Covid-19 Visualizer</a>
 
-                      <div className="desc effect1">  <span>  | ReactJS | Redux | MongoDB </span>  </div>
+                      <div className="desc effect1">  <span>  ReactJS | Redux | MongoDB </span>  </div>
                       <div className="desc-learn effect1" onClick={()=>changeState('covid')}>
                           {this.state.showCovid ?
                             <UniModal link={'http://covidvisualizer.herokuapp.com'}

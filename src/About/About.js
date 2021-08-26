@@ -23,21 +23,27 @@ class Info extends React.Component{
 
                     <p className="about_content">
 
-                    Hello :)
-                           <br/>
-                           <br/>
+                        <div style={{'padding': '10px'}}>
                            My interest with web development began in 2016 after taking a trip to Apple’s headquarters in Cupertino CA and envisioning ideas turning into full scale projects that anyone can enjoy. This one moment sparked an interest that I've been pursuing to this day.
                            <br/>
+                        </div>
+
                            <br/>
+                        <div style={{'padding': '10px'}}>
                            Fast forward to 2021 I've recently graduated with a Computer Science degree with a GPA of 3.8 and have over 4 years of web development experience.
                            <br/>
                            <br/>
-                           I love bringing my ideas to life using code. My passion lies with Full Stack Web Development using stacks such as ReactJS/NodeJS / MongoDB
+                       </div>
 
+                         <div style={{'padding': '10px'}}>
+                           I love bringing my ideas to life using code. My passion lies with Full Stack Web Development using stacks such as <span className="boldish">ReactJS </span>,
+                            <span className="boldish">NodeJS</span> and <span className="boldish">MongoDB</span>
+                        </div>
                            <br/>
                            <br/>
+                        <div style={{'padding': '10px'}}>
                            These days Ive been expanding my knowledge by building new projects using languages such as Swift, React Native, GraphQL and TypeScript.
-
+                        </div>
 
 
                     </p>

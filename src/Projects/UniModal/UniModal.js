@@ -28,7 +28,7 @@ const UniModal = (props) =>{
            <div className='container_modal'>
               <h3> <a href={props.link} className='title_modal'  target="_blank" rel="noreferrer"> {props.title} </a>  </h3>
 
-              <p className="stl">  {props.desc}  </p>
+              <div className="stl">  {props.desc}  </div>
 
               <div className="modal_lang">
                   <h4> Tools used to build this project:  </h4>

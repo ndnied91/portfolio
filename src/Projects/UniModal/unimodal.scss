@@ -73,19 +73,20 @@
   color: #c0c0c0;
   font-weight: bold;
   padding: 0;
-  // margin: 0;
   margin-bottom: auto;
-  // padding-top: 10%;
   transform: translateY(60px);
+  margin-top: 10px;
 
 }
 
 .modal_lang{
   text-align: center;
-  // padding-top: 6em;
   padding-top: 0;
-  // border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 10px;
+  transform: translateY(50px);
+}
+
+.modal_lang h4{
+  margin-bottom: 0;
 }
 
 .individual_lang{

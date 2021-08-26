@@ -27,7 +27,7 @@
 .desc{
   padding: 10px;
   margin: 0;
-  font-size: 16px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   opacity: 0;
@@ -38,11 +38,6 @@
   color: white;
 
 }
-
-// .desc-title-poke{
-//   font-size: 16px;
-// }
-
 
 
 
@@ -224,8 +219,7 @@
 
     .project-grid{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30vh, 4fr));
-
+      grid-template-columns: repeat(auto-fit, minmax(40vh, 4fr));
     }
 
     .pic{
@@ -245,16 +239,10 @@
       }
       .desc{
         transform: translateY(150%);
-        // font-size: 1.2em;
       }
       .desc-learn{
         font-size: 16px;
       }
-
-      // .learn_btn{
-        // color: red;
-        // transform: translateY(-2000em);
-      // }
 
     }
 
@@ -264,6 +252,15 @@
 
 
 
+
+
+  @media only screen and (max-width: 740px){
+    .project-grid{
+      display: grid;
+      grid-template-columns: repeat(1, minmax(40vh, 4fr));
+    }
+
+  }
 
 
 

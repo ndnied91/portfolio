@@ -173,7 +173,7 @@ switch(project){
 
             <div className='project-desc'>
                   <a className="desc-title effect1" href='http://eve.kean.edu/~niedzwid/CPS4721/indexProject.html'  target="_blank" rel="noreferrer">NBA Performace Tracker</a>
-                  <div className="desc effect1">  <span>  Python | MySQL | JavaScript </span>  </div>
+                  <div className="desc effect1">  <span>  PHP | MySQL | JavaScript </span>  </div>
                   <div className="desc-learn effect1" onClick={()=>changeState('twitterTracker')}>
                       {this.state.twitterTracker ?
                         <UniModal

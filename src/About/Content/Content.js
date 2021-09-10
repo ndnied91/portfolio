@@ -190,6 +190,21 @@ const renderCourses = () =>{
       </div>
     </Fader>
 
+        <div className="extra-stuff ">
+    <Fader>
+           <h3 className="about_title"> Additional Courses Taken </h3>
+
+           <div className="extra_content">
+
+           {renderCourses()}
+
+           </div>
+
+
+
+
+    </Fader>
+        </div>
 
               <div>
                 <Academic/>
@@ -198,21 +213,7 @@ const renderCourses = () =>{
 
 
 
-          <div className="extra-stuff ">
-   <Fader>
-             <h3 className="about_title"> Additional Courses Taken </h3>
 
-             <div className="extra_content">
-
-             {renderCourses()}
-
-             </div>
-
-
-
-
-  </Fader>
-          </div>
 
 
 

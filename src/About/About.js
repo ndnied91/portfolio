@@ -30,7 +30,7 @@ class Info extends React.Component{
 
                            <br/>
                         <div style={{'padding': '10px'}}>
-                           Fast forward to 2021 I've recently graduated with a Computer Science degree with a GPA of 3.8 and have over 4 years of web development experience.
+                           Fast forward to 2021 I've graduated with a Computer Science degree with a GPA of 3.8 and have over 4 years of web development experience.
                            <br/>
                            <br/>
                        </div>
@@ -40,9 +40,10 @@ class Info extends React.Component{
                             <span className="boldish">NodeJS</span> and <span className="boldish">MongoDB</span>
                         </div>
                            <br/>
-                           <br/>
                         <div style={{'padding': '10px'}}>
-                           These days Ive been expanding my knowledge by building new projects using languages such as Swift, React Native, GraphQL and TypeScript.
+                           These days I've been expanding my knowledge by building new projects using languages such as
+
+                           <span className="boldish">Swift</span> , <span className="boldish">React Native</span> , <span className="boldish">GraphQL </span> and <span className="boldish">TypeScript </span> .
                         </div>
 
 

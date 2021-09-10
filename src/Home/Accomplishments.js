@@ -48,7 +48,7 @@ const Accomplishments = () => {
                   <li className="acc-list-item"> <i className="fas fa-project-diagram"></i> </li>
                   <div className="acc-content">
                     <p className="acc-content-title">Projects </p>
-                    <p className="content-desc"> Versitle use of <br/> of multiple languages </p>
+                    <p className="content-desc"> Versitle use <br/> of multiple languages </p>
                 </div>
               </a>
           </div>
@@ -59,8 +59,8 @@ const Accomplishments = () => {
                <a className="acc-lnk" href= "/resume" rel="noreferrer">
                   <li className="acc-list-item"> <i className="fas fa-briefcase"></i> </li>
                   <div className="acc-content">
-                    <p className="acc-content-title">Work Experience </p>
-                    <p className="content-desc"> Experince in a fast paced <br/>tech environment </p>
+                    <p className="acc-content-title">Professional Experience </p>
+                    <p className="content-desc"> Experience in a fast paced <br/>tech environment </p>
                 </div>
               </a>
           </div>

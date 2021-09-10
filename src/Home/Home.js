@@ -50,7 +50,7 @@ const Home=()=>{
                 </p>
 
                  <p className='about_content'>
-                  I have passion for creating intuitive, dynamic user friendly websites.
+                  I have a passion for creating intuitive, dynamic user friendly websites.
                  </p>
            </div>
 

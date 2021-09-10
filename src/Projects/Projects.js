@@ -178,7 +178,7 @@ switch(project){
                       {this.state.twitterTracker ?
                         <UniModal
                            link={'http://eve.kean.edu/~niedzwid/CPS4721/indexProject.html'}
-                            desc={"Research project which utilizes JavaScript to collect Twitter info from a given player, this data is sorted and saved into a MySQL database. PHP is used for data analysis and visualization. A correlation graph is developed to display a player's popularity in regards to their in-game performance."} title={'NBA Performace Tracker'}
+                            desc={"Research project which utilizes JavaScript to collect Twitter data from a given player, this data is sorted and saved into a MySQL database. PHP is used for data analysis and visualization. A correlation graph is developed to display a player's popularity in regards to their in-game performance."} title={'NBA Performace Tracker'}
                             lang={['PHP' , 'JavaScript' , 'HTML' ,'CSS' , 'NodeJS' , 'MySQL'] }
                             github={'https://github.com/ndnied91/Dorm-Project'}
                                     />

@@ -22,7 +22,7 @@ const Home=()=>{
                Hi, I am <strong>Daniel <br/>Niedzwiedzki</strong>
            </h1>
 
-           <p className="section__subtitle section__subtitle--intro">full-stack dev</p>
+           <p className="section__subtitle section__subtitle--intro">Software Engineer</p>
              <img src="https://avatars.githubusercontent.com/u/25380503?v=4" height="300px" alt="pic of me" className="intro__img"/>
        </section>
 

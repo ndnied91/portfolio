@@ -41,8 +41,9 @@ class Info extends React.Component{
                         </div>
                            <br/>
                         <div style={{'padding': '10px'}}>
-                           These days I've been expanding my knowledge by building new projects using languages such as
 
+                          Currently I work at <a className="item" href="https://www.nuance.com/index.html" target="_blank" rel="noreferrer"> Nuance Communication </a>
+                           , a Microsoft Company as a Software Engineer. I'm also expanding my knowledge by building new projects using languages such as
                            <span className="boldish">Swift</span> , <span className="boldish">React Native</span> , <span className="boldish">GraphQL </span> and <span className="boldish">TypeScript </span> .
                         </div>
 

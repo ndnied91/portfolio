@@ -39,14 +39,14 @@ const Home=()=>{
                <h3 className="acc_title"> Who am I </h3>
 
                <p className='about_content'>
-                 Hello, my name is Daniel Niedzwiedzki and I am a Full Stack Developer based out of NJ / NY.
+                 Hello, my name is Daniel Niedzwiedzki and I am a Software Engineer based out of NJ / NY.
                   I am highly experienced in designing & developing full stack custom websites whilst cultivating an unmatched user experience.
                  <br/>
               </p>
 
                 <p className='about_content'>
-                    I recently graduated with a Bachellors of Science degreee in Computer Science / Data Science from
-                   <span> <a href="https://www.kean.edu" target="_blank" rel="noreferrer"> Kean University  </a> </span>
+                    I've graduated with a Bachellors of Science degreee in Computer Science / Data Science from
+                   <span> <a href="https://www.kean.edu" target="_blank" rel="noreferrer"> Kean University  </a> </span> in 2021 and received the distinction of Magna Cum Laude
                 </p>
 
                  <p className='about_content'>
